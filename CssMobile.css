@@ -1,0 +1,2454 @@
+/* Nuevos estilos alfabetizaciÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â³n digital */
+
+html,
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.page-title{
+  font-size: 1.5em;
+  font-weight: 200;
+  margin: 15px 0;
+  color:#666
+}
+
+#content {
+  padding: 0;
+  margin: 0;
+}
+
+#wiki_page_show>div.show-content.user_content.clearfix.enhanced {
+  padding: 0;
+  margin: 0;
+}
+
+.primer-titulo {
+  font-weight: 700;
+  font-size: 24px;
+  max-height: 125px;
+  font-family: 'Montserrat', sans-serif;
+  max-width: 100%;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  justify-content: start;
+  color: white;
+  text-align: left;
+  padding-left: 3%;
+}
+
+.imagen-titulo {
+  max-width: 100%;
+}
+
+.primer-titulo-movil {
+  display: none;
+}
+
+.contenedor-tituloweb {
+  width: 95%;
+  border-bottom: 1.36852px solid #00468B;
+  margin-top: 30px !important;
+  margin-bottom: 30px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding-bottom: 30px;
+  display: flex;
+
+}
+
+.titulo-contenidoweb {
+  width: 89.84%;
+  background: white;
+  font-size: 25px;
+  font-weight: 300;
+  font-family: 'Montserrat', sans-serif;
+  color: #00468b;
+  display: inline-block;
+  margin: 0;
+  padding-left: 1%;
+}
+
+.contenedor-titulo {
+  width: 90%;
+  border-bottom: 1.36852px solid #00468B;
+  margin: 0 auto 0 auto;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  display: none;
+}
+
+.titulo-contenido {
+  width: 100%;
+  background: white;
+  margin: 0;
+  font-size: 29px;
+  font-weight: 300;
+  font-family: 'Montserrat', sans-serif;
+  color: #00468b;
+  display: none;
+}
+
+.first {
+  display: flex;
+  margin-top: 5%;
+}
+
+.contenedor-web {
+  width: 51%;
+  max-height: 401px;
+  margin-left: 5.71%;
+}
+
+
+.contenedor-web2 {
+
+  width: 49%;
+}
+
+.botones {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 18px;
+}
+
+.boton-anterior {
+  min-width: 40%;
+  max-width: 40%;
+  min-height: 46.9px;
+  max-height: 47px;
+  background-color: #00468b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-radius: 8px 8px 8px 0px;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.link-anterior {
+  color: white;
+  font-family: 'Karla', sans-serif;
+  font-size: 20.53px;
+  text-decoration: underline;
+  width: 85%;
+  font-weight: 400;
+}
+
+.imagen-anterior {
+  padding-left: 0.7rem;
+  max-height: 30.18px;
+}
+
+.boton-siguiente {
+  min-width: 40%;
+  max-width: 40%;
+  min-height: 46.9px;
+  max-height: 47px;
+  background-color: #00468b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-radius: 8px 8px 8px 0px;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.imagen-siguiente {
+  padding-right: 0.7rem;
+  max-height: 30.18px;
+}
+
+.link-siguiente {
+  color: white;
+  font-family: 'Karla', sans-serif;
+  font-size: 20.53px;
+  text-decoration: underline;
+  width: 85%;
+  font-weight: 400;
+}
+
+.contenedor-video {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 754px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0;
+  margin-top: 0;
+  height: 62%;
+}
+
+.geniallyprincipal{
+    
+    margin-left: auto;
+    margin-right: auto;
+    width: 150% !important;
+    min-height: 150%;
+}
+.video {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  min-height: 401px;
+}
+
+.contenedor-modulos {
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.contenedor-modulo1 {
+  height: 75px;
+  max-width: 100%;
+  margin-left: 30px !important;
+  margin-right: 30px !important;
+  background-color: #079bab;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 2rem;
+  border-radius: 8.2607px 8.2607px 4.13035px 0px;
+  margin-bottom: 27.72px;
+}
+
+.modulo-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 43.56%;
+}
+
+.link-modulo1 {
+  text-decoration: none;
+  color: white;
+  font-size: 28px;
+  width: 100%;
+  font-weight: 700;
+}
+
+.link-imagen-modulo1 {
+  display: block;
+}
+
+.imagen-modulo1 {
+  max-width: 42.34;
+  max-height: 42.34px;
+}
+
+.contenedor-modulo2 {
+  height: 75px;
+  max-width: 100%;
+  margin-left: 30px !important;
+  margin-right: 30px !important;
+  background-color: #079bab;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 2rem;
+  border-radius: 8.2607px 8.2607px 4.13035px 0px;
+  margin-bottom: 50px;
+}
+
+.modulo-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 43.56%;
+
+}
+
+.link-modulo2 {
+  text-decoration: none;
+  color: white;
+  font-size: 28px;
+  font-weight: 700;
+  width: 100%;
+
+}
+
+.link-imagen-modulo2 {
+  text-decoration: none;
+}
+
+.imagen-modulo2 {
+  max-width: 42.34;
+  max-height: 42.34px;
+}
+
+.contenedor-sinconexion-encuesta {
+  max-height: 177px;
+  border-bottom: 1.00838px solid #0051A2;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-top: 0;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+.contenedor-sin-conexion {
+  margin-right: auto;
+  margin-bottom: 32px;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding-left: 19%;
+}
+
+.sin-conexion {
+  color: #00468b;
+  font-family: 'Karla', sans-serif;
+  font-size: 16px;
+  margin-left: 3.52%;
+  text-decoration: underline;
+  max-height: 40.84px;
+
+}
+
+.contenedor-encuesta {
+  margin-right: auto;
+  margin-bottom: 0;
+  max-height: 40.84px;
+  width: 88.46%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+}
+
+.encuesta-curso {
+  color: #00468b;
+  font-family: 'Karla', sans-serif;
+  font-size: 16px;
+  margin-left: 3.52%;
+  text-decoration: underline;
+  max-height: 40.84px;
+
+}
+
+.imagen-sinconexion {
+  margin-right: 4px;
+  margin-left: 0.2rem;
+  min-height: 43.79x;
+  max-height: 43.79x;
+  min-width: 43.79px;
+  max-width: 43.79px;
+
+}
+
+.sin-conexion {
+  color: #00468b;
+  font-family: 'Karla', sans-serif;
+  font-size: 16px;
+  margin-left: 3.52%;
+  text-decoration: underline;
+  max-height: 40.84px;
+
+}
+
+.sin-conexion strong {
+  color: #00468b;
+  text-align: center;
+}
+
+.contenedor-titulo-evaluacion {
+  margin-left: 11%;
+  max-height: 19.89px;
+  width: 49.72%;
+  background-color: white;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-top: 32px;
+  margin-bottom: 13px;
+}
+
+.titulo-evluacion {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  text-align: left;
+  font-size: 25px;
+  color: #0051a1;
+  width: 100%;
+
+}
+
+.evaluacion-final {
+  font-family: 'Karla', sans-serif;
+  font-weight: 700;
+  max-height: 53px;
+  max-width: 100%;
+  margin-left: 20px;
+  margin-right: 30px;
+  background-color: #00468b;
+  display: flex;
+  align-items: center;
+  color: white;
+  border-radius: 8px 8px 8px 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px solid #00468B;
+}
+
+.evaluacion-final-imagen {
+  height: 32px;
+  width: 32px;
+  padding-left: 2.74%;
+}
+
+.evaluacion-final-link {
+  font-family: 'Karla', sans-serif;
+  font-weight: 200;
+  color: white;
+  font-size: 18px;
+  text-decoration: underline;
+  width: 73.3%;
+  padding-left: 0.7rem;
+}
+
+.evaluacion {
+  font-weight: 600;
+}
+
+
+
+.contenedor-preguntas {
+  max-height: 29px;
+  background-color: white;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+
+  margin-top: 13px;
+  margin-bottom: 12.68px;
+  width: 89.84%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.preguntas {
+  text-align: left;
+  font-family: 'Karla', sans-serif;
+  font-size: 21.9px;
+  font-weight: 300;
+  color: #00468B;
+  margin: 0;
+}
+
+
+.contenedor-opciones-usuario {
+  display: flex;
+  width: 93%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3%;
+}
+
+.contenedor-tutoriales {
+  width: 30%;
+  height: 46px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  color: #00468b;
+  border-radius: 8px 8px 8px 0px;
+  margin-left: 16px !important;
+  margin-right: 16px !important;
+  margin-top: 15.56px;
+  border: 1px solid #00468B;
+}
+
+
+
+.imagen-tutoriales {
+  padding-left: 0.7rem;
+  height: 30px;
+  width: 30px;
+}
+
+.texto-tutoriales {
+  color: #00468b;
+  font-family: 'Karla', sans-serif;
+  font-weight: 400;
+  font-size: 19px;
+  text-decoration: underline;
+  width: 437px;
+  max-height: 61px;
+  padding-left: 1rem;
+  line-height: 26px;
+}
+
+.contenedor-preguntas-frecuentes {
+  width: 30%;
+  height: 46px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  color: #00468b;
+  border-radius: 8px 8px 8px 0px;
+  margin-left: 16px !important;
+  margin-right: 16px !important;
+  margin-top: 14px;
+  border: 1px solid #00468B;
+}
+
+
+
+.imagen-preguntas {
+  padding-left: 0.7rem;
+  height: 30px;
+  width: 30px;
+
+}
+
+.texto-preguntas-frecuentes {
+  color: #00468b;
+  font-family: 'Karla', sans-serif;
+  font-weight: 400;
+  font-size: 19px;
+  text-decoration: underline;
+  width: 437px;
+  max-height: 61px;
+  padding-left: 1rem;
+  line-height: 26px;
+}
+
+.contenedor-habla {
+  width: 30%;
+  height: 46px;
+  background-color: #00468b;
+  display: flex;
+  align-items: center;
+  color: white;
+  border-radius: 8px 8px 8px 0px;
+  margin-left: 16px !important;
+  margin-right: 16px !important;
+  margin-top: 14px;
+  border: 1px solid #00468B;
+}
+
+.imagen-habla {
+  padding-left: 0.7rem;
+  height: 30px;
+  width: 30px;
+}
+
+.texto-habla {
+  color: white;
+  font-family: 'Karla', sans-serif;
+  font-weight: 400;
+  font-size: 19px;
+  text-decoration: underline;
+  width: 437px;
+  max-height: 61px;
+  padding-left: 1rem;
+  line-height: 26px;
+}
+
+#wiki_page_show>div.show-content.user_content.clearfix.enhanced>div.contenedor-opciones-usuario>div.contenedor-habla>a.texto-habla.external {
+  display: flex;
+  align-items: center;
+}
+
+#wiki_page_show>div.show-content.user_content.clearfix.enhanced>div.contenedor-opciones-usuario>div.contenedor-habla>a.texto-habla.external>span.external_link_icon>svg {
+  display: none;
+}
+
+#wiki_page_show>div.show-content.user_content.clearfix.enhanced>div.contenedor-habla>a.texto-habla.external>span.external_link_icon>svg {
+  display: none !important;
+}
+
+#wiki_page_show>div.show-content.user_content.clearfix.enhanced>div.contenedor-opciones-usuario>div.contenedor-habla>a.texto-habla.external>span.external_link_icon>svg>path {
+  display: none !important;
+}
+
+
+/* Lista de lecciones modulo 1 */
+
+
+.contenedor-1 {
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 105px;
+  max-height: 105.1px;
+  max-width: 100%;
+  padding-bottom: 0;
+  padding-top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  background: transparent;
+}
+
+.banner-modulo1 {
+  display: none;
+}
+
+.banner-modulo1-web {
+  display: flex;
+  max-width: 100%;
+}
+
+
+.titulo-lista-modulo-1 {
+  margin-left: 15%;
+  margin-right: auto;
+  font-size: 18px;
+  max-width: 271px;
+  text-align: left;
+  line-height: 1rem;
+  font-family: helvetica;
+  color: white;
+}
+
+.titulo-modulo-1 {
+  font-size: 12px;
+  text-align: left;
+  line-height: 1rem;
+}
+
+.imagen-banner-modulo-1 {
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 49px;
+  max-height: 49px;
+  max-width: 49px;
+}
+
+.titulo-lecciones-modulo-1 {
+  margin-left: auto;
+  margin-top: 75px;
+  margin-right: auto;
+  min-width: 85.70%;
+  max-width: 85.71%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: white;
+  border-radius: 0px 0px 0px 0px;
+  color: #079bab;
+  border-bottom: 1px solid #00468B;
+  padding-top: 0;
+}
+
+.titulo-2-lista-modulo-1 {
+  font-size: 25px;
+  font-weight: 300;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: auto;
+  margin-bottom: 0;
+  text-align: left;
+  line-height: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #00468b;
+  width: 270px;
+}
+
+.imagen-home-lista-modulo-1 {
+  min-height: 52.5px;
+  max-height: 52.6px;
+  min-width: 51.55px;
+  max-width: 51.56px;
+  padding-right: 0;
+  margin-bottom: 13.4px;
+}
+
+.contenedor-empezar-modulo-2 {
+  display: none;
+}
+
+
+
+.contenedor-empezar-modulo-2-1 {
+  height: 52px;
+  max-width: 413px;
+  background-color: #079bab;
+  display: flex;
+  align-items: center;
+  color: white;
+  border-radius: 8px 8px 8px 0px;
+  margin: 20px auto 25px auto;
+}
+
+.imagen-empezar-modulo-2,
+.imagen-empezar-modulo-2-1 {
+  padding-left: 0.7rem;
+  max-width: 35px;
+  max-height: 35px;
+}
+
+.texto-empezar-modulo-2,
+.texto-empezar-modulo-2-1 {
+  color: white;
+  font-size: 16px;
+  text-decoration: underline;
+  width: 300px;
+  padding-left: 1rem;
+}
+
+.contenedor-padre {
+  display: flex;
+  flex-direction: row;
+}
+
+.contenedor-lecciones {
+  width: 65%;
+  margin-right: 1%;
+
+}
+
+.contenedor-leccion-1,
+.contenedor-leccion-2,
+.contenedor-leccion-3,
+.contenedor-leccion-4,
+.contenedor-leccion-5 {
+  margin-left: 10%;
+  margin-right: 0;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  max-width: 80%;
+  max-height: 77px;
+  border: 0.3px solid #079BAB;
+}
+
+.titulo-leccion-1,
+.titulo-leccion-2,
+.titulo-leccion-3,
+.titulo-leccion-4,
+.titulo-leccion-5 {
+  font-size: 1.3rem;
+  width: 20.56%;
+  min-height: 77px;
+  max-height: 77px;
+  background: #079BAB;
+  margin-top: 0;
+  margin-bottom: 1px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+  text-align: center;
+}
+
+.link-titulo-leccion-1,
+.link-titulo-leccion-2,
+.link-titulo-leccion-3,
+.link-titulo-leccion-4,
+.link-titulo-leccion-5 {
+  color: white;
+  padding: 1rem;
+  text-decoration: underline;
+  font-size: 24.98px;
+  font-weight: 400;
+  font-family: 'Karla', sans-serif;
+}
+
+.subtitulo-leccion-1,
+.subtitulo-leccion-2,
+.subtitulo-leccion-3,
+.subtitulo-leccion-4,
+.subtitulo-leccion-5 {
+  text-align: center;
+  font-size: 0.9rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  color: #079bab;
+}
+
+.link-subtitulo-leccion-1,
+.link-subtitulo-leccion-2,
+.link-subtitulo-leccion-3,
+.link-subtitulo-leccion-4,
+.link-subtitulo-leccion-5 {
+  text-decoration: none;
+  color: #079bab;
+  font-size: 18px;
+  font-family: 'Karla', sans-serif;
+}
+
+.linea-lista-modulo-1 {
+  border-bottom: 1.33px solid #004285;
+  height: 1rem;
+  max-width: 413px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contenedor-segunda-seccion {
+  display: flex;
+  align-items: center;
+  width: 30%;
+}
+
+.actividad-practica-lista-modulo-1 {
+  margin-left: 0;
+  margin-right: 0;
+  min-height: 60px;
+  max-width: 90.28%;
+  background-color: transparent;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding-left: 0;
+}
+
+.actividad-practica-lista-modulo-1-texto {
+  text-align: left;
+  font-size: 18pt;
+  color: #0051a1;
+  margin-top: 0;
+  margin-bottom: 6px;
+}
+
+.contenedor-actividad-practica-modulo-1 {
+  max-width: 413px;
+  background-color: #00468b;
+  display: flex;
+  align-items: center;
+  color: white;
+  border-radius: 8px 8px 8px 0px;
+  height: 52px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 54px;
+}
+
+.link-imagen-practica-lista-modulo-1 {
+  padding-left: 0.7rem;
+  height: 34px;
+  width: 34px;
+}
+
+.link-presentar-actividad-lista-modulo-1 {
+  color: white;
+  font-size: 18px;
+  text-decoration: underline;
+  width: 300px;
+  padding-left: 1rem;
+}
+
+
+/* LecciÃƒÆ’Ã‚Â³n 1 */
+
+.contenedor-botones {
+  min-height: 159px;
+  max-width: 88%;
+  background: transparent;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  justify-content: space-between;
+  color: black;
+  font-family: helvetica;
+  text-align: center;
+}
+
+.contenedor-boton-inicio {
+  max-width: 14.6%;
+  min-height: 47.49999px;
+  max-height: 47.5px;
+  background-color: #00468b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-radius: 8px 8px 8px 0px;
+  margin: 0;
+}
+
+.imagen-boton-inicio {
+  padding-left: 11px;
+}
+
+.link-boton-inicio {
+  color: white;
+  font-size: 20.53px;
+  font-family: 'Karla', sans-serif;
+  font-weight: 400;
+  text-decoration: underline;
+  width: 300px;
+}
+
+.contenedor-boton-modulos {
+  max-width: 14.6%;
+  min-height: 47.49999px;
+  max-height: 47.5px;
+  background-color: #00468b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-radius: 8px 8px 8px 0px;
+  margin: 0;
+}
+
+.link-boton-modulos {
+  color: white;
+  font-size: 20.53px;
+  font-family: 'Karla', sans-serif;
+  font-weight: 400;
+  text-decoration: underline;
+  width: 300px;
+  padding-left: 1rem;
+}
+
+.imagen-boton-modulos {
+  padding-right: 11px;
+  max-height: 34px;
+  max-width: 34px;
+}
+
+.linea-bajo-botones {
+  border-bottom: 2px solid #00468B;
+  height: 1rem;
+  max-width: 88%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -3rem;
+}
+
+.contenedor-video-leccion-1 {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+}
+
+.video-leccion-1 {
+  height: 543px;
+  width: 1210px;
+  border: none;
+}
+
+
+.contenedor-botones-avance-retroceso {
+  min-height: 159px;
+  max-width: 88%;
+  background: transparent;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  justify-content: space-between;
+  color: black;
+  font-family: helvetica;
+  text-align: center;
+  margin-top: -2rem;
+}
+
+.contenedor-boton-anterior {
+  max-width: 16.2%;
+  background-color: #00468b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-radius: 8px 8px 8px 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 0;
+}
+
+.imagen-boton-anterior {
+  padding-left: 0.7rem;
+  max-height: 34px;
+  max-width: 34px;
+}
+
+.link-boton-anterior {
+  color: white;
+  font-size: 20.53px;
+  font-family: 'Karla', sans-serif;
+  font-weight: 400;
+  text-decoration: underline;
+  width: 300px;
+}
+
+.contenedor-boton-siguiente {
+  max-width: 16.2%;
+  background-color: #00468b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border-radius: 8px 8px 8px 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 0;
+  padding-right: 1rem;
+}
+
+.imagen-boton-siguiente {
+  padding-right: 0.7rem;
+  max-height: 34px;
+  max-width: 34px;
+}
+
+.link-boton-siguiente {
+  color: white;
+  font-size: 20.53px;
+  font-family: 'Karla', sans-serif;
+  font-weight: 400;
+  text-decoration: underline;
+  width: 300px;
+}
+
+
+.linea-bajo-botones-avance-retroceso {
+  border-bottom: 2px solid #00468B;
+  height: 6rem;
+  max-width: 88%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -3rem;
+}
+
+.contenedor-botones-inferiores {
+  display: flex;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contenedor-descargar-cartilla {
+  max-width: 34%;
+  background-color: #00468b;
+  display: flex;
+  align-items: center;
+  color: white;
+  border-radius: 8px 8px 8px 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 20px auto 25px auto;
+}
+
+.imagen-descargar-cartilla {
+  padding-left: 0.7rem;
+}
+
+.link-descargar-cartilla {
+  font-family: 'Karla', sans-serif;
+  font-size: 17px;
+  color: white;
+  text-decoration: underline;
+  width: 300px;
+  padding-left: 1rem;
+  font-weight: 400;
+
+}
+
+.contenedor-descargar-archivos {
+  max-width: 36%;
+  background-color: #00468b;
+  display: flex;
+  align-items: center;
+  color: white;
+  border-radius: 8px 8px 8px 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 20px auto 25px auto;
+}
+
+.imagen-descargar-archivos {
+  padding-left: 0.7rem;
+}
+
+.link-descargar-archivos {
+  color: white;
+  font-family: 'Karla', sans-serif;
+  font-size: 17px;
+  text-decoration: underline;
+  width: 300px;
+  padding-left: 1rem;
+}
+
+.contenedor-glosario-1 {
+  max-width: 22%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  color: white;
+  border: 2px solid #00468b;
+  border-radius: 8px 8px 8px 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 20px auto 25px auto;
+}
+
+.imagen-glosario-1 {
+  padding-left: 0.7rem;
+}
+
+.link-glosario-1 {
+  color: #00468b;
+  font-family: 'Karla', sans-serif;
+  font-size: 17px;
+  text-decoration: underline;
+  width: 300px;
+  padding-left: 1rem;
+}
+
+
+/* Fin del modulo */
+
+.contenedor-imagen-central-final-modulo {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1.1rem;
+  max-width: 440px;
+  text-align: center;
+}
+
+.contenedor-imagen-home-fin-modulo {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  text-align: right;
+  padding-right: 1.2rem;
+}
+
+.contenedor-padre-fin-modulo {
+  display: flex;
+}
+
+.contenedor-segunda-seccion-fin-modulo {
+  max-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.contenedor-texto-fin-modulo {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1.6rem;
+  max-width: 440px;
+  text-align: center;
+}
+
+.felicitacciones-fin-modulo {
+  color: #00468b;
+}
+
+.parrafo-cerca-insignia-fin-modulo {
+  font-size: 18px;
+  color: #00468b;
+}
+
+.parrafo-repasar-fin-modulo {
+  font-size: 18px;
+  color: #00468b;
+}
+
+.contenedor-presentar-evaluacion-fin-modulo {
+  max-width: 72.5%;
+  background-color: #00468b;
+  display: flex;
+  align-items: center;
+  color: white;
+  border-radius: 8px 8px 8px 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3rem;
+}
+
+.imagen-evaluacion-fin-modulo {
+  padding-left: 0.7rem;
+}
+
+.link-evaluacion-fin-modulo {
+  color: white;
+  font-size: 18px;
+  text-decoration: underline;
+  width: 300px;
+  padding-left: 1rem;
+}
+
+/* Entrega de insignia */
+
+.contenedor-padre-insignia {
+  display: flex;
+}
+
+.contenedor-texto-insignia {
+  display: none;
+}
+
+.texto-trabajo-insignia {
+  text-align: center;
+  font-size: 2.2rem;
+}
+
+.subtitulo-trabajo-insignia {
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 1.3rem;
+}
+
+.imagen-principal-insignia {
+  max-width: 420px;
+}
+
+.contenedor-imagen-principal-insignia {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1.1rem;
+  max-width: 440px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contenedor-secundario-imagen-principal-insignia {
+  text-align: center;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.contenedor-comparte-insignia {
+  max-width: 348px;
+  min-height:56.99px ;
+  max-height: 57px;
+  background-color: #00468b;
+  display: flex;
+  align-items: center;
+  color: white;
+  border-radius: 8px 8px 8px 0px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+.imagen-compartir-insignia {
+  padding-left: 0.7rem;
+}
+
+.link-compartir-insignia {
+  color: white;
+  font-size: 18px;
+  text-decoration: underline;
+  width: 300px;
+  padding-left: 1rem;
+  cursor: pointer;
+}
+
+.contenedor-padre-insignia-2 {
+    width: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.texto-trabajo-insignia-2 {
+    text-align: center;
+    font-size: 44.94px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+
+}
+
+.subtitulo-trabajo-insignia-2 {
+    text-align: center;
+    font-size: 32.98px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    line-height: 32px;
+    margin-bottom: 65px;
+}
+
+
+@media (max-width: 1081px) {
+
+  /*AlfabetizaciÃƒÆ’Ã‚Â³n digital*/
+
+  html,
+  body {
+    font-family: 'Montserrat', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #content {
+    padding: 0;
+    margin: 0;
+  }
+
+  #wiki_page_show>div.show-content.user_content.clearfix.enhanced {
+    padding: 0;
+    margin: 0;
+  }
+
+  .primer-titulo {
+    font-weight: 700;
+    font-size: 18px;
+    min-height: 125px;
+    font-family: 'Montserrat', sans-serif;
+    max-width: 473px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+    display: none;
+  }
+
+  .primer-titulo-movil {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .imagen-titulo-movil {
+    max-width: 100%;
+    min-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 125px;
+    max-height: 125px;
+  }
+
+  .imagen-titulo {
+    max-width: 100%;
+  }
+
+  .contenedor-tituloweb {
+    display: none;
+  }
+
+  .titulo-contenidoweb {
+    display: none;
+  }
+
+  .contenedor-titulo {
+    width: 89.84%;
+    border-bottom: 1.36852px solid #00468B;
+    margin: 0 auto 0 18px;
+    padding-bottom: 31px;
+    margin-bottom: 39px;
+    display: flex;
+  }
+
+  .titulo-contenido {
+    width: 89.84%;
+    background: white;
+    font-size: 29px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    color: #00468b;
+    display: flex;
+    margin-top: 31px;
+  }
+
+
+  .first {
+    display: inline-block;
+    width: 100%;
+  }
+
+  .contenedor-web {
+    min-width: 80%;
+    min-height: 101px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .contenedor-web2 {
+
+    width: 100%;
+  }
+
+  .botones {
+    display: none !important;
+
+  }
+
+  .contenedor-video {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 308px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+    margin-top: 0;
+
+
+  }
+
+  .video {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    min-height: 101px !important;
+    max-height: 200px;
+  }
+
+  .contenedor-modulos {
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 1px solid #00468B;
+    border-bottom: 1px solid #00468B;
+    width: 100%;
+    padding-top: 39px;
+    padding-bottom: 56px;
+    margin-top: 34.19px;
+
+  }
+
+  .contenedor-modulo1 {
+    height: 101px;
+    min-width: 91.1%;
+    max-width: 91.1%;
+    background-color: #079bab;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    font-size: 2rem;
+    border-radius: 8.2607px 8.2607px 4.13035px 0px;
+    margin-bottom: 52px;
+  }
+
+  .modulo-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 43.56%;
+  }
+
+  .link-modulo1 {
+    text-decoration: none !important;
+    color: white;
+    font-size: 33px;
+    width: 100%;
+    font-weight: 700;
+  }
+
+  .link-imagen-modulo1 {
+    display: block;
+  }
+
+  .imagen-modulo1 {
+    min-width: 60px;
+    max-width: 60px;
+    min-height: 60px;
+    max-height: 60px;
+  }
+
+  .contenedor-modulo2 {
+    height: 101px;
+    min-width: 91.1%;
+    max-width: 91.1%;
+    background-color: #079bab;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    font-size: 2rem;
+    border-radius: 8.2607px 8.2607px 4.13035px 0px;
+    margin-bottom: 0;
+
+  }
+
+  .modulo-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 43.56%;
+  }
+
+  .link-modulo2 {
+    text-decoration: none !important;
+    color: white;
+    font-size: 33px;
+    width: 100%;
+    font-weight: 700;
+  }
+
+  .link-imagen-modulo2 {
+    text-decoration: none;
+  }
+
+  .imagen-modulo2 {
+    min-width: 60px;
+    max-width: 60px;
+    min-height: 60px;
+    max-height: 60px;
+  }
+
+  .contenedor-sinconexion-encuesta {
+    display: flex;
+    flex-direction: column;
+    max-height: 177px;
+    border-top: 1.00838px solid #0051A2;
+    border-bottom: 1.00838px solid #0051A2;
+    padding-top: 32.32px;
+    padding-bottom: 32.32px;
+    margin-top: 52px;
+    width: 89.84%;
+    margin-left: 23px;
+    margin-right: auto;
+
+  }
+
+  .contenedor-sin-conexion {
+    margin-right: auto;
+    margin-bottom: 39px;
+    max-height: 40.84px;
+    width: 88.46%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-left: 0;
+  }
+
+  .imagen-sinconexion {
+    margin-right: 4px;
+    margin-left: 0.2rem;
+    height: 30px;
+    width: 30px;
+
+  }
+
+  .sin-conexion {
+    color: #00468b;
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    margin-left: 3.52%;
+    text-decoration: underline;
+    max-height: 40.84px;
+
+  }
+
+  .contenedor-encuesta {
+    margin-right: auto;
+    margin-bottom: 53px;
+    max-height: 40.84px;
+    width: 88.46%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+  }
+
+
+
+  .encuesta-curso {
+    color: #00468b;
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    margin-left: 3.52%;
+    text-decoration: underline;
+    max-height: 40.84px;
+
+  }
+
+  .sin-conexion strong {
+    color: #00468b;
+    text-align: center;
+  }
+
+  .contenedor-titulo-evaluacion {
+    margin-left: 0;
+    max-height: 19.89px;
+    max-width: 440px;
+    background-color: white;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 30px;
+    margin-top: 22px;
+    margin-bottom: 39px;
+  }
+
+  .titulo-evluacion {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-align: left;
+    font-size: 21.9px;
+    color: #0051a1;
+
+  }
+
+  .evaluacion-final {
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    width: 89%;
+    min-height: 61px !important;
+    max-height: 61px !important;
+    background-color: #00468b;
+    display: flex;
+    align-items: center;
+    color: white;
+    border-radius: 8px 8px 8px 0px;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-left: 30px;
+    margin-right: auto;
+    border: 1px solid #00468B;
+  }
+
+  .evaluacion-final-imagen {
+    min-height: 44px;
+    max-height: 44px;
+    min-width: 44px;
+    max-width: 44px;
+    padding-left: 2.74%;
+  }
+
+  .evaluacion-final-link {
+    font-family: 'Karla', sans-serif;
+    font-weight: 100;
+    color: white;
+    font-size: 19px;
+    text-decoration: underline;
+    width: 73.3%;
+    padding-left: 0.7rem;
+  }
+
+  .evaluacion {
+    font-weight: 600;
+  }
+
+
+
+  .contenedor-preguntas {
+    margin-left: 23px;
+    margin-right: auto;
+    max-height: 29px;
+    max-width: 440px;
+    background-color: white;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-left: 0;
+    margin-top: 20px;
+    margin-bottom: 0;
+  }
+
+  .preguntas {
+    text-align: left;
+    font-family: 'Karla', sans-serif;
+    font-size: 21.9px;
+    font-weight: 300;
+    color: #00468B;
+    margin: 0;
+  }
+
+  .contenedor-opciones-usuario {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contenedor-tutoriales {
+    width: 95.11%;
+    min-height: 61.58px;
+    max-height: 61.58px;
+    max-width: 437px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    color: #00468b;
+    border-radius: 8px 8px 8px 0px;
+    margin-left: 24.68px;
+    margin-right: auto;
+    margin-top: 21px;
+    border: 1px solid #00468B;
+  }
+
+
+
+  .imagen-tutoriales {
+    padding-left: 9.58px;
+    min-height: 41.74px;
+    max-height: 41.74px;
+    min-width: 41.74px;
+    max-width: 41.74px;
+  }
+
+  .texto-tutoriales {
+    color: #00468b;
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+    font-size: 16.13px;
+    text-decoration: underline;
+    width: 437px;
+    max-height: 61px;
+    padding-left: 1rem;
+    line-height: 26px;
+  }
+
+  .contenedor-preguntas-frecuentes {
+    min-height: 61.58px;
+    max-height: 61.58px;
+    width: 95.11%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    color: #00468b;
+    border-radius: 8px 8px 8px 0px;
+    margin-left: 24.68px;
+    margin-right: auto;
+    margin-top: 14px;
+    border: 1px solid #00468B;
+  }
+
+
+
+  .imagen-preguntas {
+    padding-left: 9.58px;
+    min-height: 41.74px;
+    max-height: 41.74px;
+    min-width: 41.74px;
+    max-width: 41.74px;
+
+  }
+
+  .texto-preguntas-frecuentes {
+    color: #00468b;
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+    font-size: 16.13px;
+    text-decoration: underline;
+    width: 437px;
+    max-height: 61px;
+    padding-left: 1rem;
+    line-height: 26px;
+  }
+
+  .contenedor-habla {
+    min-height: 61.58px;
+    max-height: 61.58px;
+    width: 95.11%;
+    background-color: #00468b;
+    display: flex;
+    align-items: center;
+    color: white;
+    border-radius: 8px 8px 8px 0px;
+    margin-left: 24.68px;
+    margin-right: auto;
+    margin-top: 14px;
+    border: 1px solid #00468B;
+  }
+
+  .imagen-habla {
+    padding-left: 9.58px;
+    min-height: 41.74px;
+    max-height: 41.74px;
+    min-width: 41.74px;
+    max-width: 41.74px;
+  }
+
+  .texto-habla {
+    color: white;
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+    font-size: 16.13px;
+    text-decoration: underline;
+    width: 437px;
+    max-height: 61px;
+    padding-left: 1rem;
+    line-height: 26px;
+  }
+
+  #wiki_page_show>div.show-content.user_content.clearfix.enhanced>div.contenedor-habla>a.texto-habla.external>span.external_link_icon>svg {
+    display: none !important;
+  }
+
+  /* Lista de lecciones modulo 1 */
+
+
+
+
+
+  .contenedor-1 {
+    margin-left: auto;
+    margin-right: auto;
+    background: transparent;
+    min-height: 146px;
+    max-height: 147px;
+  }
+
+
+
+  .banner-modulo1 {
+    display: flex;
+    max-width: 100%;
+    max-height: 95px;
+  }
+
+  .banner-modulo1-web {
+    display: none;
+
+  }
+
+  .titulo-lista-modulo-1 {
+    margin-left: 15%;
+    margin-right: auto;
+    font-size: 18px;
+    max-width: 271px;
+    text-align: left;
+    line-height: 1rem;
+    font-family: helvetica;
+    color: white;
+  }
+
+  .titulo-modulo-1 {
+    font-size: 12px;
+    text-align: left;
+    line-height: 1rem;
+  }
+
+  .imagen-banner-modulo-1 {
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 49px;
+    max-height: 49px;
+    max-width: 49px;
+  }
+
+  .titulo-lecciones-modulo-1 {
+    position: relative;
+    margin-left: auto;
+    margin-top: 32px;
+    margin-right: auto;
+    max-width: 90.83%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: white;
+    border-radius: 0px 0px 0px 0px;
+    color: #079bab;
+    border-bottom: 1px solid #00468B;
+    padding-top: 0;
+    margin-bottom: 20px;
+    padding-bottom: 0;
+  }
+
+  .titulo-2-lista-modulo-1 {
+    font-size: 18px;
+    margin-left: 6px;
+    margin-right: auto;
+    text-align: left;
+    line-height: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    color: #00468b;
+    width: 270px;
+    font-weight: 300;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .imagen-home-lista-modulo-1 {
+    min-height: 36px;
+    min-width: 36px;
+    max-height: 36.1px;
+    max-width: 36.1px;
+    padding-right: 0;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+
+  .contenedor-empezar-modulo-2 {
+    max-width: 91.11%;
+    background-color: #079bab;
+    display: flex;
+    align-items: center;
+    color: white;
+    border-radius: 8px 8px 8px 0px;
+    padding-top: 6.79px;
+    padding-bottom: 10px;
+    margin: 0 auto 0 auto;
+  }
+
+
+
+  .contenedor-empezar-modulo-2-1 {
+    display: none;
+  }
+
+  .imagen-empezar-modulo-2,
+  .imagen-empezar-modulo-2-1 {
+    margin-left: 11.79px;
+  }
+
+  .texto-empezar-modulo-2,
+  .texto-empezar-modulo-2-1 {
+    color: white;
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+    text-decoration: underline;
+    width: 300px;
+    padding-left: 1rem;
+  }
+
+
+  .contenedor-padre {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+  }
+
+  .contenedor-lecciones {
+    width: 100%;
+  }
+
+  .contenedor-leccion-1 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 42px;
+    max-width: 85.83%;
+    min-height: 112px;
+    max-height: 112px;
+    padding: 0;
+  }
+
+  .contenedor-leccion-2,
+  .contenedor-leccion-3,
+  .contenedor-leccion-4,
+  .contenedor-leccion-5 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 42px;
+    max-width: 85.83%;
+    min-height: 112px;
+    max-height: 112px;
+    padding: 0;
+  }
+
+  .titulo-leccion-1 {
+    background: #079BAB;
+    border-radius: 0 0 4.3px 0;
+    min-height: 112px;
+    max-height: 112px;
+  }
+
+  .titulo-leccion-2,
+  .titulo-leccion-3,
+  .titulo-leccion-4,
+  .titulo-leccion-5 {
+    width: 110px;
+    background: #079BAB;
+    border-radius: 0 0 4.3px 0;
+    min-height: 112px;
+    max-height: 112px;
+
+  }
+
+  .link-titulo-leccion-1,
+  .link-titulo-leccion-2,
+  .link-titulo-leccion-3,
+  .link-titulo-leccion-4,
+  .link-titulo-leccion-5 {
+
+    color: white;
+    padding: 0;
+    text-decoration: underline;
+    margin-top: 4%;
+    margin-bottom: 0%;
+    font-size: 22px;
+    font-family: 'Karla', sans-serif;
+  }
+
+  .subtitulo-leccion-1,
+  .subtitulo-leccion-2,
+  .subtitulo-leccion-3,
+  .subtitulo-leccion-4,
+  .subtitulo-leccion-5 {
+    text-align: center;
+    font-size: 13px;
+    font-weight: 700;
+    color: #079bab;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .link-subtitulo-leccion-1,
+  .link-subtitulo-leccion-2,
+  .link-subtitulo-leccion-3,
+  .link-subtitulo-leccion-4,
+  .link-subtitulo-leccion-5 {
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 700;
+    color: #079bab;
+    padding-left: 14.57%;
+    padding-right: 18.59%;
+    padding-bottom: 16.58%;
+    padding-top: 19.6%;
+    font-weight: 700;
+    line-height: 15px;
+  }
+
+  .contenedor-segunda-seccion {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+
+  .contenedor-elementos {
+    max-width: 100%;
+  }
+
+  .actividad-practica-lista-modulo-1 {
+    max-width: 90.28%;
+  }
+
+  .actividad-practica-lista-modulo-1-texto {
+    text-align: left;
+    font-size: 16px;
+    color: #0051a1;
+    margin-top: 48px;
+    width: 91.11%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    border-top: 1.00838px solid #0051A2;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-bottom: 0;
+  }
+
+  .contenedor-actividad-practica-modulo-1 {
+    max-width: 90.18%;
+    max-height: 46px;
+    background-color: #00468b;
+    display: flex;
+    align-items: center;
+    color: white;
+    border-radius: 8px 8px 8px 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .link-imagen-practica-lista-modulo-1 {
+    padding-left: 12px;
+    padding-top: 6.79px;
+    padding-bottom: 6.79px;
+    max-height: 32.42px;
+    max-width: 32.42px;
+  }
+
+  .link-presentar-actividad-lista-modulo-1 {
+    font-family: 'Karla', sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: underline;
+    padding-left: 10px;
+  }
+
+  /* LecciÃƒÆ’Ã‚Â³n 1 */
+
+  .contenedor-botones {
+    min-height: 159px;
+    max-width: 88%;
+    background: transparent;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+    font-family: helvetica;
+    text-align: center;
+  }
+
+  .contenedor-boton-inicio {
+    max-width: 32%;
+    min-height: 47.49999px;
+    max-height: 47.5px;
+    background-color: #00468b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 8px 8px 8px 0px;
+    margin: 0;
+  }
+
+  .imagen-boton-inicio {
+    padding-left: 11px;
+    max-height: 24px;
+    max-width: 24px;
+  }
+
+  .link-boton-inicio {
+    color: white;
+    font-size: 14.93px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+    text-decoration: underline;
+    width: 300px;
+  }
+
+  .contenedor-boton-modulos {
+    max-width: 41%;
+    min-height: 47.49999px;
+    max-height: 47.5px;
+    background-color: #00468b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 8px 8px 8px 0px;
+    margin: 0;
+  }
+
+  .link-boton-modulos {
+    color: white;
+    font-size: 14.93px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+    text-decoration: underline;
+    width: 300px;
+    padding-left: 10px;
+  }
+
+  .imagen-boton-modulos {
+    padding-right: 11px;
+    max-height: 24px;
+    max-width: 24px;
+  }
+
+  .linea-bajo-botones {
+    border-bottom: 2px solid #00468B;
+    height: 1rem;
+    max-width: 88%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -3rem;
+  }
+
+  .contenedor-video-leccion-1 {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 314px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .video-leccion-1 {
+    max-height: 176px;
+    border: none;
+  }
+
+
+  .contenedor-botones-avance-retroceso {
+    min-height: 159px;
+    max-width: 88%;
+    background: transparent;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+    font-family: helvetica;
+    text-align: center;
+    margin-top: -2rem;
+  }
+
+  .contenedor-boton-anterior {
+    max-width: 32%;
+    height: 36px;
+    padding-bottom: 0;
+    padding-top: 0;
+    background-color: #00468b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 8px 8px 8px 0px;
+    margin: 0;
+  }
+
+  .imagen-boton-anterior {
+    padding-left: 0.7rem;
+    min-height: 23.99px;
+    max-height: 24px;
+    min-width: 23.99px;
+    max-width: 24px;
+  }
+
+  .link-boton-anterior {
+    color: white;
+    font-size: 14.93px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+    text-decoration: underline;
+    width: 300px;
+  }
+
+  .contenedor-boton-siguiente {
+    max-width: 34%;
+    height: 36px;
+    background-color: #00468b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 8px 8px 8px 0px;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin: 0;
+    padding-right: 0;
+  }
+
+  .imagen-boton-siguiente {
+    padding-right: 0.7rem;
+    min-height: 23.99px;
+    max-height: 24px;
+    min-width: 23.99px;
+    max-width: 24px;
+  }
+
+  .link-boton-siguiente {
+    color: white;
+    font-size: 14.93px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+    text-decoration: underline;
+    width: 300px;
+  }
+
+
+  .linea-bajo-botones-avance-retroceso {
+    border-bottom: 2px solid #00468B;
+    height: 1rem;
+    max-width: 88%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -3rem;
+  }
+
+  .contenedor-botones-inferiores {
+    display: flex;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    flex-direction: column;
+  }
+
+  .contenedor-descargar-cartilla {
+    max-width: 90.28%;
+    min-height: 45.99px;
+    max-height: 46px;
+    background-color: #00468b;
+    display: flex;
+    align-items: center;
+    color: white;
+    border-radius: 8px 8px 8px 0px;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin: 0 auto 0 auto;
+  }
+
+  .imagen-descargar-cartilla {
+    padding-left: 0.7rem;
+    width: 36px;
+    height: 36px;
+  }
+
+  .link-descargar-cartilla {
+    font-size: 14.93px;
+    font-family: 'Karla', sans-serif;
+    color: white;
+    text-decoration: underline;
+    width: 300px;
+    padding-left: 1rem;
+    font-weight: 400;
+
+  }
+
+  .contenedor-descargar-archivos {
+    max-width: 90.28%;
+    min-height: 45.99px;
+    max-height: 46px;
+    background-color: #00468b;
+    display: flex;
+    align-items: center;
+    color: white;
+    border-radius: 8px 8px 8px 0px;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin: 14px auto 14px auto;
+  }
+
+  .imagen-descargar-archivos {
+    padding-left: 0.7rem;
+    width: 36px;
+    height: 36px;
+  }
+
+  .link-descargar-archivos {
+    color: white;
+    font-size: 14.93px;
+    font-family: 'Karla', sans-serif;
+    text-decoration: underline;
+    width: 300px;
+    padding-left: 1rem;
+  }
+
+  .contenedor-glosario-1 {
+    max-width: 90.28%;
+    min-height: 45.99px;
+    max-height: 46px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    color: white;
+    border: 2px solid #00468b;
+    border-radius: 8px 8px 8px 0px;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin: 0 auto 0 auto;
+  }
+
+  .imagen-glosario-1 {
+    padding-left: 0.7rem;
+    width: 36px;
+    height: 36px;
+  }
+
+  .link-glosario-1 {
+    color: #00468b;
+    font-size: 14.93px;
+    font-family: 'Karla', sans-serif;
+    text-decoration: underline;
+    width: 300px;
+    padding-left: 1rem;
+  }
+
+
+
+  /* Fin del modulo */
+
+
+
+  .contenedor-imagen-home-fin-modulo {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    text-align: right;
+    padding-right: 1.2rem;
+  }
+
+  .contenedor-imagen-central-final-modulo {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.1rem;
+    max-width: 440px;
+    text-align: center;
+  }
+
+  .contenedor-padre-fin-modulo {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contenedor-texto-fin-modulo {
+    display: flex;
+    flex-direction: column;
+    max-width: 85%;
+  }
+
+  .contenedor-segunda-seccion-fin-modulo {
+    max-width: 440px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .contenedor-presentar-evaluacion-fin-modulo {
+    max-width: 85%;
+  }
+
+
+  /* Entrega de insignia */
+
+  .contenedor-padre-insignia {
+    display: flex;
+    flex-direction: column;
+  }
+
+.contenedor-texto-insignia {
+  display: inline;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 440px;
+  color: #00468b;
+  max-height: 45px;
+}
+
+.imagen-principal-insignia{
+  margin-top: 45px;
+}
+.contenedor-padre-insignia-2  {
+    width: 100%;
+}
+
+.contenedor-comparte-insignia {
+   display: flex;
+   align-items: center;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.texto-trabajo-insignia-2 {
+    display: none;
+}
+
+.subtitulo-trabajo-insignia-2 {
+    display: none;
+}
+
+}
