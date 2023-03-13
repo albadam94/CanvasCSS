@@ -50,13 +50,13 @@ display: block;
 }
 
 .contenedor-tituloweb {
-  width: 95%;
+  width: auto;
   border-bottom: 1.36852px solid #00468B;
-  margin-top: 30px !important;
-  margin-bottom: 30px !important;
-  margin-left: auto !important;
-  margin-right: auto !important;
-  padding-bottom: 7px;
+  margin-top: 43px !important;
+  margin-bottom: 32px !important;
+  margin-left: 6.6% !important;
+  margin-right: 5.3% !important;
+  padding-bottom: 12px;
   display: flex;
 
 }
@@ -64,13 +64,13 @@ display: block;
 .titulo-contenidoweb {
   width: 89.84%;
   background: white;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 300;
   font-family: 'Montserrat', sans-serif;
   color: #00468b;
   display: inline-block;
   margin: 0;
-  padding-left: 1%;
+  padding-left: 0; 
 }
 
 .contenedor-titulo {
@@ -95,29 +95,32 @@ display: block;
 
 .first {
   display: flex;
-  margin-top: 5%;
+  height: auto;
+  margin-left: 6.6%;
+  width: 88.24%;
+  padding-left: 0;
 }
 
 .contenedor-web {
-  width: 51%;
-  max-height: 401px;
-  margin-left: 5.71%;
+  margin-left:0;
+  min-width: 61%;
+  max-width: 61%;
 }
 
 .contenedor-web2 {
-
-  width: 49%;
+  margin-left: 8.27%;
+  width: 40%;
 }
 
 .botones {
   display: flex;
   justify-content: space-between;
-  margin-top: 18px;
+  margin-top: 14.71px;
 }
 
 .boton-anterior {
-  width: 77px;
-  height: 22px;
+  width: 20.33%;
+  height: 28px;
   background-color: #00468b;
   display: flex;
   align-items: center;
@@ -132,18 +135,18 @@ display: block;
 
 .boton-anterior:hover {
   color: white;
-    background-color: #055EB6;
+  background-color: #055EB6;
     
 }
 
 .boton-anterior:active {
-  background:#079bab;
+  background-color: #003B75;
 }
 
 .link-anterior {
   color: white;
   font-family: 'Karla', sans-serif;
-  font-size: 10px;
+  font-size: 14px;
   text-decoration: none !important;
   width: auto;
   font-weight: 400;
@@ -155,15 +158,15 @@ display: block;
 }
 
 .imagen-anterior {
-  height: 12.57px;
-  width: 12.57px;
+  height: 14px;
+  width: 14px;
   margin-left: 10px;
   margin-right: 10px;
 }
 
 .boton-siguiente {
-  width: 77px;
-  height: 22px;
+  width: 22.734%;
+  height: 28px;
   background-color: #00468b;
   display: flex;
   align-items: center;
@@ -174,28 +177,15 @@ display: block;
   padding-bottom: 0;
   margin: 0;
   text-align: center;
-  padding-right: 10px;
 }
 
 .imagen-siguiente {
-  width: 12.56px;
-  height: 12.56px;
+  width: 14px;
+  height: 14px;
   margin-right: 10px;
+  margin-left: 9.62%;
 }
-.boton-siguiente {
-  width: 77px;
-  height: 22px;
-  background-color: #00468b;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  border-radius: 8px 8px 8px 0px;
-  padding-top: 0;
-  padding-bottom: 0;
-  margin: 0;
-  text-align: center;
-}
+
 
 .boton-siguiente:hover {
     color: white;
@@ -204,17 +194,17 @@ display: block;
 }
 
 .boton-siguiente:active {
-  background:#079bab;
+  background-color: #003B75;
 }
 
 .link-siguiente {
   color: white;
   font-family: 'Karla', sans-serif;
-  font-size: 10px;
+  font-size: 14px;
   text-decoration: none !important;
   width: auto;
   font-weight: 400;
-  margin-right: 10px;
+  margin-right: 0;
   margin-left: 10px;
 }
 
@@ -225,20 +215,20 @@ display: block;
 .contenedor-video {
   margin-left: auto;
   margin-right: auto;
-  max-width: 724px;
+  max-width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-bottom: 0;
   margin-top: 0;
-  height: 62%;
+  height: auto;
 }
 
 .geniallyprincipal{
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
-    min-height: 110%;
+    width: 457px !important;
+    height: 247px !important;
 }
 .video {
   margin-left: auto;
@@ -250,14 +240,15 @@ display: block;
 .contenedor-modulos {
   margin-left: auto;
   margin-right: auto;
+  margin-top: 37px;
 
 }
 
 .contenedor-modulo1 {
-  height: 32px;
-  width: 140px;
-  margin-left: 30px !important;
-  margin-right: 30px !important;
+  height: 36px;
+  width: 92.44%;
+  margin-left: 0;
+  margin-right: 0;
   background-color: #079bab;
   display: flex;
   justify-content: center;
@@ -269,11 +260,11 @@ display: block;
 }
 
 .contenedor-modulo1:hover{
-  background-color: #055EB6;
+  background-color: #07B5C8;
 }
 
 .contenedor-modulo1:active{
-  background-color:#003B75;
+  background-color:#027A87;
 }
 .modulo-1 {
   display: flex;
@@ -288,7 +279,7 @@ display: block;
   width: auto;
   text-decoration: none !important;
   color: white;
-  font-size: 11.79px;
+  font-size: 16px;
   width: 100%;
   font-weight: 700;
   margin-right: 30px;
@@ -312,10 +303,10 @@ display: block;
 }
 
 .contenedor-modulo2 {
-  height: 32px;
-  max-width: 140px;
-  margin-left: 30px !important;
-  margin-right: 30px !important;
+  height: 36px;
+  width: 92.44%;
+  margin-left: 0;
+  margin-right: 0;
   background-color: #079bab;
   display: flex;
   justify-content: center;
@@ -327,11 +318,11 @@ display: block;
 }
 
 .contenedor-modulo2:hover{
-  background-color: #055EB6;
+  background-color: #07B5C8;
 }
 
 .contenedor-modulo2:active{
-  background-color:#003B75;
+  background-color:#027A87;
 }
 
 .modulo-2 {
@@ -346,12 +337,16 @@ display: block;
   width: auto;
   text-decoration: none !important;
   color: white;
-  font-size: 11.79px;
+  font-size: 16px;
   width: 100%;
   font-weight: 700;
   margin-right: 30px;
   margin-left: 10px;
 
+}
+
+.link-modulo2:hover {
+  color: white;
 }
 
 .link-imagen-modulo2 {
@@ -369,10 +364,10 @@ display: block;
   max-height: 177px;
   border-bottom: 1.00838px solid #0051A2;
   padding-top: 0;
-  padding-bottom: 0;
-  margin-top: 0;
-  width: 95%;
-  margin-left: 16px;
+  padding-bottom: 35px;
+  margin-top: 58px;
+  max-width: 95%;
+  margin-left: 5.6%;
   margin-right: auto;
   display: flex;
 }
@@ -385,7 +380,8 @@ display: block;
   display: flex;
   align-items: center;
   justify-content: start;
-  padding-left: 19%;
+  padding-left: 0;
+  margin-left: 28%;
 }
 
 .sin-conexion {
@@ -411,7 +407,7 @@ display: block;
 .encuesta-curso {
   color: #00468b;
   font-family: 'Karla', sans-serif;
-  font-size: 11px;
+  font-size: 14px;
   margin-left: 3.52%;
   text-decoration: underline;
   max-height: 40.84px;
@@ -421,15 +417,15 @@ display: block;
 .imagen-sinconexion {
   margin-right: 4px;
   margin-left: 10px;
-  height: 18px;
-  width: 18px;
+  height: 22px;
+  width: 22px;
 
 }
 
 .sin-conexion {
   color: #00468b;
   font-family: 'Karla', sans-serif;
-  font-size: 11px;
+  font-size: 14px;
   margin-left: 3.52%;
   text-decoration: underline;
   max-height: 40.84px;
@@ -442,7 +438,7 @@ display: block;
 }
 
 .contenedor-titulo-evaluacion {
-  margin-left: 11%;
+  margin-left: 0;
   max-height: 19.89px;
   width: 49.72%;
   background-color: white;
@@ -450,14 +446,14 @@ display: block;
   justify-content: start;
   align-items: center;
   margin-top: 32px;
-  margin-bottom: 13px;
+  margin-bottom: 18px;
 }
 
 .titulo-evaluacion {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   text-align: left;
-  font-size: 16px;
+  font-size: 14px;
   color: #0051a1;
   width: 100%;
   margin: 0;
@@ -467,10 +463,11 @@ display: block;
 .evaluacion-final {
   font-family: 'Karla', sans-serif;
   font-weight: 700;
-  width: 166px;
-    height: 22px; 
-  margin-left: 30px;
-  margin-right: 30px;
+  min-height: 36px;
+  max-height: 36px;
+  width: 92.44%;
+  margin-left:0px;
+  margin-right: 0px;
   background-color: #00468b;
   display: flex;
   align-items: center;
@@ -480,29 +477,29 @@ display: block;
 }
 
 .evaluacion-final:hover {
-background-color: #003B75;
+background-color: #055EB6;
 color: white;
 }
 
 .evaluacion-final:active{
-  background-color: #079bab;
+  background-color: #003B75;
   color: white;
 }
 
 .evaluacion-final-imagen {
-  height: 14px;
-  width: 14px;
-  padding-left: 10px;
+  height: 22px;
+  width: 22px;
+  padding-left: 4.55%;
 }
 
 .evaluacion-final-link {
   font-family: 'Karla', sans-serif;
-  font-weight: 200;
+  font-weight: 100;
   color: white;
-  font-size: 10px;
+  font-size: 11.6px;
   text-decoration: underline;
   width: 73.3%;
-  padding-left: 10px;
+  padding-left: 3.54%;
   margin-right: 5px;
 }
 
@@ -526,17 +523,17 @@ color: white;
   display: flex;
   justify-content: start;
   align-items: center;
-  margin-top: 9px;
-  margin-bottom: 13px;
+  margin-top: 25px;
+  margin-bottom: 20px;
   width: 89.84%;
-  margin-left: 3.2%;
+  margin-left: 6.6%;
   margin-right: auto;
 }
 
 .preguntas {
   text-align: left;
   font-family: 'Karla', sans-serif;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 300;
   color: #00468B;
   margin: 0;
@@ -546,22 +543,22 @@ color: white;
 .contenedor-opciones-usuario {
   display: flex;
   width: 93%;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 6.6%;
+  margin-right: 0;
   margin-bottom: 3%;
 }
 
 .contenedor-tutoriales {
-  height: 22px;
-  width: 18%;
+  height: 36px;
+  width: 29%;
   background-color: white;
   display: flex;
   align-items: center;
   color: #00468b;
   border-radius: 8px 8px 8px 0px;
-  margin-left: 0.2%;
-  margin-right: auto;
-  margin-top: 15.56px;
+  margin-left: 0;
+  margin-right: 5.4%;
+  margin-top: 0;
   border: 1px solid #00468B;
 }
 
@@ -569,15 +566,15 @@ color: white;
 
 .imagen-tutoriales {
   padding-left: 0.7rem;
-  height: 15.25px;
-  width: 15.25px;
+  height: 52px;
+  width: 52px;
 }
 
 .texto-tutoriales {
   color: #00468b;
   font-family: 'Karla', sans-serif;
   font-weight: 400;
-  font-size: 11px;
+  font-size: 14px;
   text-decoration: underline;
   width: 437px;
   max-height: 61px;
@@ -586,16 +583,16 @@ color: white;
 }
 
 .contenedor-preguntas-frecuentes {
-  height: 22px;
-  width: 21%;
+  height: 36px;
+  width: 29%;
   background-color: white;
   display: flex;
   align-items: center;
   color: #00468b;
   border-radius: 8px 8px 8px 0px;
-  margin-left: 1%;
-  margin-right: 40px;
-  margin-top: 14px;
+  margin-left: 0;
+  margin-right: 5.4%;
+  margin-top: 0;
   border: 1px solid #00468B;
 }
 
@@ -603,8 +600,8 @@ color: white;
 
 .imagen-preguntas {
   padding-left: 0.7rem;
-  height: 15.25px;
-  width: 15.25px;
+  height: 52px;
+  width: 52px;
 
 }
 
@@ -612,7 +609,7 @@ color: white;
   color: #00468b;
   font-family: 'Karla', sans-serif;
   font-weight: 400;
-  font-size: 11px;
+  font-size: 14px;
   text-decoration: underline;
   width: 437px;
   max-height: 61px;
@@ -621,38 +618,38 @@ color: white;
 }
 
 .contenedor-habla {
-  height: 22px;
-  width: 28%;
+  height: 36px;
+  width: 29%;
   background-color: #00468b;
   display: flex;
   align-items: center;
   color: white;
   border-radius: 8px 8px 8px 0px;
   margin-left: 0;
-  margin-right: auto;
-  margin-top: 14px;
+  margin-right: 0;
+  margin-top: 0;
   border: 1px solid #00468B;
 }
 .contenedor-habla:hover {
-  background-color: #003B75;
+  background-color: #055EB6;
   color: white;
   }
   
   .contenedor-habla:active{
-    background-color: #079bab;
+    background-color: #003B75;
     color: white;
   }
 .imagen-habla {
   padding-left: 0.7rem;
-  height: 15.25px;
-  width: 15.25px;
+  height: 52px;
+  width: 52px;
 }
 
 .texto-habla {
   color: white;
   font-family: 'Karla', sans-serif;
   font-weight: 400;
-  font-size: 11px;
+  font-size: 14px;
   text-decoration: underline;
   width: 437px;
   max-height: 61px;
@@ -692,7 +689,6 @@ color: white;
 .contenedor-1 {
   margin-left: auto;
   margin-right: auto;
-  min-height: 105px;
   max-height: 105.1px;
   max-width: 100%;
   padding-bottom: 0;
@@ -755,7 +751,7 @@ color: white;
 }
 
 .titulo-2-lista-modulo-1 {
-  font-size: 25px;
+  font-size: 16px;
   font-weight: 300;
   margin-top: 0;
   margin-left: 0;
@@ -784,7 +780,8 @@ color: white;
 
 
 .contenedor-empezar-modulo-2-1 {
-  height: 52px;
+  min-height: 36px;
+  max-height: 36px;
   max-width: 413px;
   background-color: #079bab;
   display: flex;
@@ -795,24 +792,24 @@ color: white;
 }
 
 .contenedor-empezar-modulo-2-1:hover {
-  background-color: #00468b ;
+  background-color: #07B5C8 ;
 }
 
 .contenedor-empezar-modulo-2-1:active {
-  background-color: #003B75;
+  background-color: #027A87;
 }
 
 .imagen-empezar-modulo-2,
 .imagen-empezar-modulo-2-1 {
   padding-left: 0.7rem;
-  max-width: 35px;
-  max-height: 35px;
+  max-width: 22px;
+  max-height: 22px;
 }
 
 .texto-empezar-modulo-2,
 .texto-empezar-modulo-2-1 {
   color: white;
-  font-size: 16px;
+  font-size: 14px;
   text-decoration: underline;
   width: 300px;
   padding-left: 1rem;
@@ -930,7 +927,7 @@ color: white;
 
 .actividad-practica-lista-modulo-1-texto {
   text-align: left;
-  font-size: 18pt;
+  font-size: 16px;
   color: #0051a1;
   margin-top: 0;
   margin-bottom: 6px;
@@ -938,6 +935,7 @@ color: white;
 
 .contenedor-actividad-practica-modulo-1 {
   max-width: 413px;
+  max-height: 36px;
   background-color: #00468b;
   display: flex;
   align-items: center;
@@ -949,29 +947,29 @@ color: white;
   margin-bottom: 54px;
 }
 .contenedor-actividad-practica-modulo-1:hover {
-  background-color: #003B75;
+  background-color: #055EB6;
 }
 
 .contenedor-actividad-practica-modulo-1:active {
-  background-color: #079bab;
+  background-color: #003B75;
 }
 
 .link-imagen-practica-lista-modulo-1 {
   padding-left: 0.7rem;
-  height: 34px;
-  width: 34px;
+  height: 22px;
+  width: 22px;
 }
 
 .link-presentar-actividad-lista-modulo-1 {
   color: white;
-  font-size: 18px;
+  font-size: 14px;
   text-decoration: underline;
   width: 300px;
   padding-left: 1rem;
 }
 
 
-/* LecciÃƒÆ’Ã‚Â³n 1 */
+/* LecciÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â³n 1 */
 
 .contenedor-botones {
   min-height: 159px;
@@ -988,9 +986,9 @@ color: white;
 }
 
 .contenedor-boton-inicio {
-  max-width: 14.6%;
-  min-height: 47.49999px;
-  max-height: 47.5px;
+  max-width: 10.4%;
+  min-height: 38px;
+  max-height: 38px;
   background-color: #00468b;
   display: flex;
   align-items: center;
@@ -1001,20 +999,22 @@ color: white;
 }
 
 .contenedor-boton-inicio:hover {
-  background-color: #003B75;
+  background-color: #055EB6;
 }
 
 .contenedor-boton-inicio:active {
-  background-color: #079bab;
+  background-color: #003B75;
 }
 
 .imagen-boton-inicio {
   padding-left: 11px;
+  width: 20px;
+  height: 20px;
 }
 
 .link-boton-inicio {
   color: white;
-  font-size: 20.53px;
+  font-size: 14px;
   font-family: 'Karla', sans-serif;
   font-weight: 400;
   text-decoration: underline;
@@ -1022,9 +1022,9 @@ color: white;
 }
 
 .contenedor-boton-modulos {
-  max-width: 14.6%;
-  min-height: 47.49999px;
-  max-height: 47.5px;
+  max-width: 10.4%;
+  min-height: 38px;
+  max-height: 38px;
   background-color: #00468b;
   display: flex;
   align-items: center;
@@ -1034,15 +1034,15 @@ color: white;
   margin: 0;
 }
 .contenedor-boton-modulos:hover {
-  background-color: #003B75;
+  background-color: #055EB6;
 }
 
 .contenedor-boton-modulos:active {
-  background-color: #079bab;
+  background-color: #003B75;
 }
 .link-boton-modulos {
   color: white;
-  font-size: 20.53px;
+  font-size: 14px;
   font-family: 'Karla', sans-serif;
   font-weight: 400;
   text-decoration: underline;
@@ -1052,8 +1052,8 @@ color: white;
 
 .imagen-boton-modulos {
   padding-right: 11px;
-  max-height: 34px;
-  max-width: 34px;
+  max-height: 20px;
+  max-width: 20px;
 }
 
 .linea-bajo-botones {
@@ -1097,76 +1097,80 @@ color: white;
 }
 
 .contenedor-boton-anterior {
-  max-width: 16.2%;
+  min-width: 10.4%;
+  max-width: 10.4%;
+  height: 38px;
   background-color: #00468b;
   display: flex;
   align-items: center;
   justify-content: center;
   color: white;
   border-radius: 8px 8px 8px 0px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 0px;
+  padding-bottom: 0px;
   margin: 0;
 }
 .contenedor-boton-anterior:hover {
-  background-color: #003B75;
+  background-color: #055EB6;
 }
 
 .contenedor-boton-anterior:active {
-  background-color: #079bab;
+  background-color: #003B75;
 }
 
 
 
 .imagen-boton-anterior {
   padding-left: 0.7rem;
-  max-height: 34px;
-  max-width: 34px;
+  max-height: 22px;
+  max-width: 22px;
 }
 
 .link-boton-anterior {
   color: white;
-  font-size: 20.53px;
+  font-size: 14px;
   font-family: 'Karla', sans-serif;
   font-weight: 400;
-  text-decoration: underline;
+  text-decoration: none;
   width: 300px;
 }
 
 .contenedor-boton-siguiente {
-  max-width: 16.2%;
+  min-width: 10.4%;
+  max-width: 10.4%;
+  height: 38px;
   background-color: #00468b;
   display: flex;
   align-items: center;
   justify-content: center;
   color: white;
   border-radius: 8px 8px 8px 0px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 0px;
+  padding-bottom: 0px;
   margin: 0;
-  padding-right: 1rem;
+  padding-right: 0;
 }
 
 .contenedor-boton-siguiente:hover {
-  background-color: #003B75;
+  background-color: #055EB6;
 }
 
 .contenedor-boton-siguiente:active {
-  background-color: #079bab;
+  background-color: #003B75;
 }
 
 .imagen-boton-siguiente {
   padding-right: 0.7rem;
-  max-height: 34px;
-  max-width: 34px;
+  max-height: 22px;
+  max-width: 22px;
 }
 
 .link-boton-siguiente {
   color: white;
-  font-size: 20.53px;
+  font-size: 14px;
   font-family: 'Karla', sans-serif;
   font-weight: 400;
-  text-decoration: underline;
+  text-decoration: none;
   width: 300px;
 }
 
@@ -1189,30 +1193,33 @@ color: white;
 
 .contenedor-descargar-cartilla {
   max-width: 34%;
+  height: 36px;
   background-color: #00468b;
   display: flex;
   align-items: center;
   color: white;
   border-radius: 8px 8px 8px 0px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 0px;
+  padding-bottom: 0px;
   margin: 20px auto 25px auto;
 }
 
 .contenedor-descargar-cartilla:hover {
-  background-color: #003B75;
+  background-color: #055EB6;
 }
 
 .contenedor-descargar-cartilla:active {
-  background-color: #079bab;
+  background-color: #003B75;
 }
 .imagen-descargar-cartilla {
+  height: 22px;
+  width: 22px;
   padding-left: 0.7rem;
 }
 
 .link-descargar-cartilla {
   font-family: 'Karla', sans-serif;
-  font-size: 17px;
+  font-size: 14px;
   color: white;
   text-decoration: underline;
   width: 300px;
@@ -1223,38 +1230,42 @@ color: white;
 
 .contenedor-descargar-archivos {
   max-width: 36%;
+  height: 36px;
   background-color: #00468b;
   display: flex;
   align-items: center;
   color: white;
   border-radius: 8px 8px 8px 0px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 0px;
+  padding-bottom: 0px;
   margin: 20px auto 25px auto;
 }
 
 .contenedor-descargar-archivos:hover {
-  background-color: #003B75;
+  background-color: #055EB6;
 }
 
 .contenedor-descargar-archivos:active {
-  background-color: #079bab;
+  background-color: #003B75;
 }
 
 .imagen-descargar-archivos {
   padding-left: 0.7rem;
+  width: 22px;
+  height: 22px;
 }
 
 .link-descargar-archivos {
   color: white;
   font-family: 'Karla', sans-serif;
-  font-size: 17px;
+  font-size: 14px;
   text-decoration: underline;
   width: 300px;
   padding-left: 1rem;
 }
 
 .contenedor-glosario-1 {
+  max-height: 36px;
   max-width: 22%;
   background-color: white;
   display: flex;
@@ -1262,19 +1273,20 @@ color: white;
   color: white;
   border: 2px solid #00468b;
   border-radius: 8px 8px 8px 0px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 0px;
+  padding-bottom: 0px;
   margin: 20px auto 25px auto;
 }
 
 .imagen-glosario-1 {
   padding-left: 0.7rem;
-}
+  width: 22px;
+  height: 22px;}
 
 .link-glosario-1 {
   color: #00468b;
   font-family: 'Karla', sans-serif;
-  font-size: 17px;
+  font-size: 14px;
   text-decoration: underline;
   width: 300px;
   padding-left: 1rem;
@@ -1334,14 +1346,16 @@ color: white;
 }
 
 .contenedor-presentar-evaluacion-fin-modulo {
+  min-height: 36px;
+  max-height: 36px;
   max-width: 72.5%;
   background-color: #00468b;
   display: flex;
   align-items: center;
   color: white;
   border-radius: 8px 8px 8px 0px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 0px;
+  padding-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 3rem;
@@ -1349,11 +1363,15 @@ color: white;
 
 .imagen-evaluacion-fin-modulo {
   padding-left: 0.7rem;
+  min-height: 22px;
+  max-height: 22px;
+  min-width: 22px;
+  max-width: 22px;
 }
 
 .link-evaluacion-fin-modulo {
   color: white;
-  font-size: 18px;
+  font-size: 14px;
   text-decoration: underline;
   width: 300px;
   padding-left: 1rem;
@@ -1452,9 +1470,49 @@ color: white;
 }
 
 
+/* #wiki_page_show > div > div:nth-child(7) > a {
+  font-size: 14px !important;
+}
+
+#wiki_page_show > div > div:nth-child(7) > img {
+  min-height: 22px;
+  max-height: 22px;
+  min-width: 22px;
+  max-width: 22px;
+}
+#wiki_page_show > div > div:nth-child(7) {
+  margin-top: -10rem !important;
+  min-height: 36px !important;
+  max-height: 36px !important;
+  min-width: 22% !important;
+  max-width: 22% !important;
+  padding-top: 0 !important;hive
+  padding-bottom: 0 !important;
+  
+} */
+
+.glosario-practica-fin-modulo-link {
+  font-size: 14px !important;
+}
+
+.glosario-practica-fin-modulo-imagen {
+  min-height: 22px;
+  max-height: 22px;
+  min-width: 22px;
+  max-width: 22px;
+}
+.glosario-practica-fin-modulo {
+  margin-top: -10rem !important;
+  min-height: 36px !important;
+  max-height: 36px !important;
+  min-width: 22% !important;
+  max-width: 22% !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
 @media (max-width: 1081px) {
 
-  /*AlfabetizaciÃƒÆ’Ã‚Â³n digital*/
+  /*AlfabetizaciÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â³n digital*/
 
   html,
   body {
@@ -1543,7 +1601,7 @@ color: white;
 
   .first {
     display: inline-block;
-    width: 100%;
+    max-width: 100%;
   }
 
   .contenedor-web {
@@ -1554,7 +1612,7 @@ color: white;
   }
 
   .contenedor-web2 {
-
+    margin-left: 0;
     width: 100%;
   }
 
@@ -1598,7 +1656,7 @@ color: white;
 
   .contenedor-modulo1 {
     height: 68px;
-    width: 84%;
+    width: 88%;
     background-color: #079bab;
     margin-left: auto !important;
     margin-right: auto !important;
@@ -1643,7 +1701,7 @@ color: white;
 
   .contenedor-modulo2 {
     height: 68px;
-    width: 84%;
+    width: 88%;
     max-width: 100%;
     background-color: #079bab;
     margin-left: auto !important;
@@ -1711,6 +1769,7 @@ color: white;
     align-items: center;
     justify-content: start;
     padding-left: 0;
+    margin-left: 0;
   }
 
   .imagen-sinconexion {
@@ -1966,7 +2025,6 @@ color: white;
     margin-left: auto;
     margin-right: auto;
     background: transparent;
-    min-height: 146px;
     max-height: 147px;
   }
 
@@ -2061,7 +2119,7 @@ color: white;
     align-items: center;
     color: white;
     border-radius: 8px 8px 8px 0px;
-    padding-top: 6.79px;
+    padding-top: 10px;
     padding-bottom: 10px;
     margin: 0 auto 0 auto;
   }
@@ -2260,7 +2318,7 @@ color: white;
     padding-left: 10px;
   }
 
-  /* LecciÃƒÆ’Ã‚Â³n 1 */
+  /* LecciÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â³n 1 */
 
   .contenedor-botones {
     min-height: 159px;
@@ -2670,6 +2728,15 @@ color: white;
 
 .subtitulo-trabajo-insignia-2 {
     display: none;
+}
+
+.glosario-practica-fin-modulo {
+  min-height: 36px !important;
+  max-height: 36px !important;
+  min-width: 37% !important;
+  max-width: 37% !important;
+  margin-top: -7rem !important;
+ 
 }
 
 }

@@ -1,4 +1,4 @@
-/* Nuevos estilos alfabetizaciÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â³n digital */
+/* Nuevos estilos alfabetizacion digital */
 
 html,
 body {
@@ -7,12 +7,13 @@ body {
   margin-right: auto;
 }
 
-.page-title{
-  font-size: 1.5em;
-  font-weight: 200;
-  margin: 15px 0;
-  color:#666
+.ic-Login__content{
+
+margin:50px 5px 10px 582px;
+justify-items: right;
+display: block;  
 }
+
 
 #content {
   padding: 0;
@@ -49,13 +50,13 @@ body {
 }
 
 .contenedor-tituloweb {
-  width: 95%;
+  width: auto;
   border-bottom: 1.36852px solid #00468B;
-  margin-top: 30px !important;
-  margin-bottom: 30px !important;
-  margin-left: auto !important;
-  margin-right: auto !important;
-  padding-bottom: 30px;
+  margin-top: 43px !important;
+  margin-bottom: 32px !important;
+  margin-left: 6.6% !important;
+  margin-right: 5.3% !important;
+  padding-bottom: 12px;
   display: flex;
 
 }
@@ -63,13 +64,13 @@ body {
 .titulo-contenidoweb {
   width: 89.84%;
   background: white;
-  font-size: 25px;
+  font-size: 14px;
   font-weight: 300;
   font-family: 'Montserrat', sans-serif;
   color: #00468b;
   display: inline-block;
   margin: 0;
-  padding-left: 1%;
+  padding-left: 0; 
 }
 
 .contenedor-titulo {
@@ -94,32 +95,32 @@ body {
 
 .first {
   display: flex;
-  margin-top: 5%;
+  height: auto;
+  margin-left: 6.6%;
+  width: 88.24%;
+  padding-left: 0;
 }
 
 .contenedor-web {
-  width: 51%;
-  max-height: 401px;
-  margin-left: 5.71%;
+  margin-left:0;
+  min-width: 61%;
+  max-width: 61%;
 }
 
-
 .contenedor-web2 {
-
-  width: 49%;
+  margin-left: 8.27%;
+  width: 40%;
 }
 
 .botones {
   display: flex;
   justify-content: space-between;
-  margin-top: 18px;
+  margin-top: 14.71px;
 }
 
 .boton-anterior {
-  min-width: 40%;
-  max-width: 40%;
-  min-height: 46.9px;
-  max-height: 47px;
+  width: 20.33%;
+  height: 28px;
   background-color: #00468b;
   display: flex;
   align-items: center;
@@ -132,25 +133,40 @@ body {
   text-align: center;
 }
 
+.boton-anterior:hover {
+  color: white;
+  background-color: #055EB6;
+    
+}
+
+.boton-anterior:active {
+  background-color: #003B75;
+}
+
 .link-anterior {
   color: white;
   font-family: 'Karla', sans-serif;
-  font-size: 20.53px;
-  text-decoration: underline;
-  width: 85%;
+  font-size: 14px;
+  text-decoration: none !important;
+  width: auto;
   font-weight: 400;
+  margin-right: 10px;
+}
+
+.link-anterior:hover {
+  color: white;
 }
 
 .imagen-anterior {
-  padding-left: 0.7rem;
-  max-height: 30.18px;
+  height: 14px;
+  width: 14px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .boton-siguiente {
-  min-width: 40%;
-  max-width: 40%;
-  min-height: 46.9px;
-  max-height: 47px;
+  width: 22.734%;
+  height: 28px;
   background-color: #00468b;
   display: flex;
   align-items: center;
@@ -164,37 +180,55 @@ body {
 }
 
 .imagen-siguiente {
-  padding-right: 0.7rem;
-  max-height: 30.18px;
+  width: 14px;
+  height: 14px;
+  margin-right: 10px;
+  margin-left: 9.62%;
+}
+
+
+.boton-siguiente:hover {
+    color: white;
+    background-color: #055EB6;
+    
+}
+
+.boton-siguiente:active {
+  background-color: #003B75;
 }
 
 .link-siguiente {
   color: white;
   font-family: 'Karla', sans-serif;
-  font-size: 20.53px;
-  text-decoration: underline;
-  width: 85%;
+  font-size: 14px;
+  text-decoration: none !important;
+  width: auto;
   font-weight: 400;
+  margin-right: 0;
+  margin-left: 10px;
+}
+
+.link-siguiente:hover{
+  color:white;
 }
 
 .contenedor-video {
   margin-left: auto;
   margin-right: auto;
-  max-width: 754px;
+  max-width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   margin-bottom: 0;
   margin-top: 0;
-  height: 62%;
+  height: auto;
 }
 
 .geniallyprincipal{
-    
     margin-left: auto;
     margin-right: auto;
-    width: 150% !important;
-    min-height: 150%;
+    width: 457px !important;
+    height: 247px !important;
 }
 .video {
   margin-left: auto;
@@ -206,14 +240,15 @@ body {
 .contenedor-modulos {
   margin-left: auto;
   margin-right: auto;
+  margin-top: 37px;
 
 }
 
 .contenedor-modulo1 {
-  height: 75px;
-  max-width: 100%;
-  margin-left: 30px !important;
-  margin-right: 30px !important;
+  height: 36px;
+  width: 92.44%;
+  margin-left: 0;
+  margin-right: 0;
   background-color: #079bab;
   display: flex;
   justify-content: center;
@@ -224,19 +259,36 @@ body {
   margin-bottom: 27.72px;
 }
 
+.contenedor-modulo1:hover{
+  background-color: #07B5C8;
+}
+
+.contenedor-modulo1:active{
+  background-color:#027A87;
+}
 .modulo-1 {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 43.56%;
+  width: auto;
 }
 
+ 
+
 .link-modulo1 {
-  text-decoration: none;
+  width: auto;
+  text-decoration: none !important;
   color: white;
-  font-size: 28px;
+  font-size: 16px;
   width: 100%;
   font-weight: 700;
+  margin-right: 30px;
+  margin-left: 10px;
+}
+
+
+.link-modulo1:hover {
+  color: white
 }
 
 .link-imagen-modulo1 {
@@ -244,15 +296,17 @@ body {
 }
 
 .imagen-modulo1 {
-  max-width: 42.34;
-  max-height: 42.34px;
+  max-width: 22px;
+  max-height: 22px;
+  margin-right: 12px;
+  margin-bottom: 5px;
 }
 
 .contenedor-modulo2 {
-  height: 75px;
-  max-width: 100%;
-  margin-left: 30px !important;
-  margin-right: 30px !important;
+  height: 36px;
+  width: 92.44%;
+  margin-left: 0;
+  margin-right: 0;
   background-color: #079bab;
   display: flex;
   justify-content: center;
@@ -260,24 +314,39 @@ body {
   color: white;
   font-size: 2rem;
   border-radius: 8.2607px 8.2607px 4.13035px 0px;
-  margin-bottom: 50px;
+  margin-bottom: 29px;
+}
+
+.contenedor-modulo2:hover{
+  background-color: #07B5C8;
+}
+
+.contenedor-modulo2:active{
+  background-color:#027A87;
 }
 
 .modulo-2 {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 43.56%;
+  width: auto;
 
 }
 
 .link-modulo2 {
-  text-decoration: none;
+  width: auto;
+  text-decoration: none !important;
   color: white;
-  font-size: 28px;
-  font-weight: 700;
+  font-size: 16px;
   width: 100%;
+  font-weight: 700;
+  margin-right: 30px;
+  margin-left: 10px;
 
+}
+
+.link-modulo2:hover {
+  color: white;
 }
 
 .link-imagen-modulo2 {
@@ -285,31 +354,34 @@ body {
 }
 
 .imagen-modulo2 {
-  max-width: 42.34;
-  max-height: 42.34px;
+  width: 22px;
+  height: 22px;
+  margin-right: 12px;
+  margin-bottom: 5px;
 }
 
 .contenedor-sinconexion-encuesta {
   max-height: 177px;
   border-bottom: 1.00838px solid #0051A2;
   padding-top: 0;
-  padding-bottom: 0;
-  margin-top: 0;
-  width: 95%;
-  margin-left: auto;
+  padding-bottom: 35px;
+  margin-top: 58px;
+  max-width: 95%;
+  margin-left: 5.6%;
   margin-right: auto;
   display: flex;
 }
 
 .contenedor-sin-conexion {
   margin-right: auto;
-  margin-bottom: 32px;
+  margin-bottom: 10px;
   width: 100%;
   background-color: white;
   display: flex;
   align-items: center;
   justify-content: start;
-  padding-left: 19%;
+  padding-left: 0;
+  margin-left: 28%;
 }
 
 .sin-conexion {
@@ -335,7 +407,7 @@ body {
 .encuesta-curso {
   color: #00468b;
   font-family: 'Karla', sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   margin-left: 3.52%;
   text-decoration: underline;
   max-height: 40.84px;
@@ -344,18 +416,16 @@ body {
 
 .imagen-sinconexion {
   margin-right: 4px;
-  margin-left: 0.2rem;
-  min-height: 43.79x;
-  max-height: 43.79x;
-  min-width: 43.79px;
-  max-width: 43.79px;
+  margin-left: 10px;
+  height: 22px;
+  width: 22px;
 
 }
 
 .sin-conexion {
   color: #00468b;
   font-family: 'Karla', sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   margin-left: 3.52%;
   text-decoration: underline;
   max-height: 40.84px;
@@ -368,7 +438,7 @@ body {
 }
 
 .contenedor-titulo-evaluacion {
-  margin-left: 11%;
+  margin-left: 0;
   max-height: 19.89px;
   width: 49.72%;
   background-color: white;
@@ -376,50 +446,69 @@ body {
   justify-content: start;
   align-items: center;
   margin-top: 32px;
-  margin-bottom: 13px;
+  margin-bottom: 18px;
 }
 
-.titulo-evluacion {
+.titulo-evaluacion {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   text-align: left;
-  font-size: 25px;
+  font-size: 14px;
   color: #0051a1;
   width: 100%;
+  margin: 0;
 
 }
 
 .evaluacion-final {
   font-family: 'Karla', sans-serif;
   font-weight: 700;
-  max-height: 53px;
-  max-width: 100%;
-  margin-left: 20px;
-  margin-right: 30px;
+  min-height: 36px;
+  max-height: 36px;
+  width: 92.44%;
+  margin-left:0px;
+  margin-right: 0px;
   background-color: #00468b;
   display: flex;
   align-items: center;
   color: white;
   border-radius: 8px 8px 8px 0px;
-  padding-top: 10px;
-  padding-bottom: 10px;
   border: 1px solid #00468B;
 }
 
+.evaluacion-final:hover {
+background-color: #055EB6;
+color: white;
+}
+
+.evaluacion-final:active{
+  background-color: #003B75;
+  color: white;
+}
+
 .evaluacion-final-imagen {
-  height: 32px;
-  width: 32px;
-  padding-left: 2.74%;
+  height: 22px;
+  width: 22px;
+  padding-left: 4.55%;
 }
 
 .evaluacion-final-link {
   font-family: 'Karla', sans-serif;
-  font-weight: 200;
+  font-weight: 100;
   color: white;
-  font-size: 18px;
+  font-size: 11.6px;
   text-decoration: underline;
   width: 73.3%;
-  padding-left: 0.7rem;
+  padding-left: 3.54%;
+  margin-right: 5px;
+}
+
+.evaluacion-final-link:hover {
+  color: white;
+}
+
+.evaluacion-final-link:active {
+  color: white;
 }
 
 .evaluacion {
@@ -434,18 +523,17 @@ body {
   display: flex;
   justify-content: start;
   align-items: center;
-
-  margin-top: 13px;
-  margin-bottom: 12.68px;
+  margin-top: 25px;
+  margin-bottom: 20px;
   width: 89.84%;
-  margin-left: auto;
+  margin-left: 6.6%;
   margin-right: auto;
 }
 
 .preguntas {
   text-align: left;
   font-family: 'Karla', sans-serif;
-  font-size: 21.9px;
+  font-size: 14px;
   font-weight: 300;
   color: #00468B;
   margin: 0;
@@ -455,22 +543,22 @@ body {
 .contenedor-opciones-usuario {
   display: flex;
   width: 93%;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 6.6%;
+  margin-right: 0;
   margin-bottom: 3%;
 }
 
 .contenedor-tutoriales {
-  width: 30%;
-  height: 46px;
+  height: 36px;
+  width: 29%;
   background-color: white;
   display: flex;
   align-items: center;
   color: #00468b;
   border-radius: 8px 8px 8px 0px;
-  margin-left: 16px !important;
-  margin-right: 16px !important;
-  margin-top: 15.56px;
+  margin-left: 0;
+  margin-right: 5.4%;
+  margin-top: 0;
   border: 1px solid #00468B;
 }
 
@@ -478,33 +566,33 @@ body {
 
 .imagen-tutoriales {
   padding-left: 0.7rem;
-  height: 30px;
-  width: 30px;
+  height: 52px;
+  width: 52px;
 }
 
 .texto-tutoriales {
   color: #00468b;
   font-family: 'Karla', sans-serif;
   font-weight: 400;
-  font-size: 19px;
+  font-size: 14px;
   text-decoration: underline;
   width: 437px;
   max-height: 61px;
   padding-left: 1rem;
-  line-height: 26px;
+  line-height: 10px;
 }
 
 .contenedor-preguntas-frecuentes {
-  width: 30%;
-  height: 46px;
+  height: 36px;
+  width: 29%;
   background-color: white;
   display: flex;
   align-items: center;
   color: #00468b;
   border-radius: 8px 8px 8px 0px;
-  margin-left: 16px !important;
-  margin-right: 16px !important;
-  margin-top: 14px;
+  margin-left: 0;
+  margin-right: 5.4%;
+  margin-top: 0;
   border: 1px solid #00468B;
 }
 
@@ -512,8 +600,8 @@ body {
 
 .imagen-preguntas {
   padding-left: 0.7rem;
-  height: 30px;
-  width: 30px;
+  height: 52px;
+  width: 52px;
 
 }
 
@@ -521,44 +609,60 @@ body {
   color: #00468b;
   font-family: 'Karla', sans-serif;
   font-weight: 400;
-  font-size: 19px;
+  font-size: 14px;
   text-decoration: underline;
   width: 437px;
   max-height: 61px;
   padding-left: 1rem;
-  line-height: 26px;
+  line-height: 10px;
 }
 
 .contenedor-habla {
-  width: 30%;
-  height: 46px;
+  height: 36px;
+  width: 29%;
   background-color: #00468b;
   display: flex;
   align-items: center;
   color: white;
   border-radius: 8px 8px 8px 0px;
-  margin-left: 16px !important;
-  margin-right: 16px !important;
-  margin-top: 14px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
   border: 1px solid #00468B;
 }
-
+.contenedor-habla:hover {
+  background-color: #055EB6;
+  color: white;
+  }
+  
+  .contenedor-habla:active{
+    background-color: #003B75;
+    color: white;
+  }
 .imagen-habla {
   padding-left: 0.7rem;
-  height: 30px;
-  width: 30px;
+  height: 52px;
+  width: 52px;
 }
 
 .texto-habla {
   color: white;
   font-family: 'Karla', sans-serif;
   font-weight: 400;
-  font-size: 19px;
+  font-size: 14px;
   text-decoration: underline;
   width: 437px;
   max-height: 61px;
   padding-left: 1rem;
   line-height: 26px;
+}
+
+.texto-habla:hover {
+  color:white;
+}
+
+.texto-habla:active {
+  color: white;
 }
 
 #wiki_page_show>div.show-content.user_content.clearfix.enhanced>div.contenedor-opciones-usuario>div.contenedor-habla>a.texto-habla.external {
@@ -585,7 +689,6 @@ body {
 .contenedor-1 {
   margin-left: auto;
   margin-right: auto;
-  min-height: 105px;
   max-height: 105.1px;
   max-width: 100%;
   padding-bottom: 0;
@@ -648,7 +751,7 @@ body {
 }
 
 .titulo-2-lista-modulo-1 {
-  font-size: 25px;
+  font-size: 16px;
   font-weight: 300;
   margin-top: 0;
   margin-left: 0;
@@ -677,7 +780,8 @@ body {
 
 
 .contenedor-empezar-modulo-2-1 {
-  height: 52px;
+  min-height: 36px;
+  max-height: 36px;
   max-width: 413px;
   background-color: #079bab;
   display: flex;
@@ -687,17 +791,25 @@ body {
   margin: 20px auto 25px auto;
 }
 
+.contenedor-empezar-modulo-2-1:hover {
+  background-color: #07B5C8 ;
+}
+
+.contenedor-empezar-modulo-2-1:active {
+  background-color: #027A87;
+}
+
 .imagen-empezar-modulo-2,
 .imagen-empezar-modulo-2-1 {
   padding-left: 0.7rem;
-  max-width: 35px;
-  max-height: 35px;
+  max-width: 22px;
+  max-height: 22px;
 }
 
 .texto-empezar-modulo-2,
 .texto-empezar-modulo-2-1 {
   color: white;
-  font-size: 16px;
+  font-size: 14px;
   text-decoration: underline;
   width: 300px;
   padding-left: 1rem;
@@ -815,7 +927,7 @@ body {
 
 .actividad-practica-lista-modulo-1-texto {
   text-align: left;
-  font-size: 18pt;
+  font-size: 16px;
   color: #0051a1;
   margin-top: 0;
   margin-bottom: 6px;
@@ -823,6 +935,7 @@ body {
 
 .contenedor-actividad-practica-modulo-1 {
   max-width: 413px;
+  max-height: 36px;
   background-color: #00468b;
   display: flex;
   align-items: center;
@@ -833,23 +946,30 @@ body {
   margin-right: auto;
   margin-bottom: 54px;
 }
+.contenedor-actividad-practica-modulo-1:hover {
+  background-color: #055EB6;
+}
+
+.contenedor-actividad-practica-modulo-1:active {
+  background-color: #003B75;
+}
 
 .link-imagen-practica-lista-modulo-1 {
   padding-left: 0.7rem;
-  height: 34px;
-  width: 34px;
+  height: 22px;
+  width: 22px;
 }
 
 .link-presentar-actividad-lista-modulo-1 {
   color: white;
-  font-size: 18px;
+  font-size: 14px;
   text-decoration: underline;
   width: 300px;
   padding-left: 1rem;
 }
 
 
-/* LecciÃƒÆ’Ã‚Â³n 1 */
+/* LecciÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â³n 1 */
 
 .contenedor-botones {
   min-height: 159px;
@@ -866,9 +986,9 @@ body {
 }
 
 .contenedor-boton-inicio {
-  max-width: 14.6%;
-  min-height: 47.49999px;
-  max-height: 47.5px;
+  max-width: 10.4%;
+  min-height: 38px;
+  max-height: 38px;
   background-color: #00468b;
   display: flex;
   align-items: center;
@@ -878,13 +998,23 @@ body {
   margin: 0;
 }
 
+.contenedor-boton-inicio:hover {
+  background-color: #055EB6;
+}
+
+.contenedor-boton-inicio:active {
+  background-color: #003B75;
+}
+
 .imagen-boton-inicio {
   padding-left: 11px;
+  width: 20px;
+  height: 20px;
 }
 
 .link-boton-inicio {
   color: white;
-  font-size: 20.53px;
+  font-size: 14px;
   font-family: 'Karla', sans-serif;
   font-weight: 400;
   text-decoration: underline;
@@ -892,9 +1022,9 @@ body {
 }
 
 .contenedor-boton-modulos {
-  max-width: 14.6%;
-  min-height: 47.49999px;
-  max-height: 47.5px;
+  max-width: 10.4%;
+  min-height: 38px;
+  max-height: 38px;
   background-color: #00468b;
   display: flex;
   align-items: center;
@@ -903,10 +1033,16 @@ body {
   border-radius: 8px 8px 8px 0px;
   margin: 0;
 }
+.contenedor-boton-modulos:hover {
+  background-color: #055EB6;
+}
 
+.contenedor-boton-modulos:active {
+  background-color: #003B75;
+}
 .link-boton-modulos {
   color: white;
-  font-size: 20.53px;
+  font-size: 14px;
   font-family: 'Karla', sans-serif;
   font-weight: 400;
   text-decoration: underline;
@@ -916,8 +1052,8 @@ body {
 
 .imagen-boton-modulos {
   padding-right: 11px;
-  max-height: 34px;
-  max-width: 34px;
+  max-height: 20px;
+  max-width: 20px;
 }
 
 .linea-bajo-botones {
@@ -961,59 +1097,80 @@ body {
 }
 
 .contenedor-boton-anterior {
-  max-width: 16.2%;
+  min-width: 10.4%;
+  max-width: 10.4%;
+  height: 38px;
   background-color: #00468b;
   display: flex;
   align-items: center;
   justify-content: center;
   color: white;
   border-radius: 8px 8px 8px 0px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 0px;
+  padding-bottom: 0px;
   margin: 0;
 }
+.contenedor-boton-anterior:hover {
+  background-color: #055EB6;
+}
+
+.contenedor-boton-anterior:active {
+  background-color: #003B75;
+}
+
+
 
 .imagen-boton-anterior {
   padding-left: 0.7rem;
-  max-height: 34px;
-  max-width: 34px;
+  max-height: 22px;
+  max-width: 22px;
 }
 
 .link-boton-anterior {
   color: white;
-  font-size: 20.53px;
+  font-size: 14px;
   font-family: 'Karla', sans-serif;
   font-weight: 400;
-  text-decoration: underline;
+  text-decoration: none;
   width: 300px;
 }
 
 .contenedor-boton-siguiente {
-  max-width: 16.2%;
+  min-width: 10.4%;
+  max-width: 10.4%;
+  height: 38px;
   background-color: #00468b;
   display: flex;
   align-items: center;
   justify-content: center;
   color: white;
   border-radius: 8px 8px 8px 0px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 0px;
+  padding-bottom: 0px;
   margin: 0;
-  padding-right: 1rem;
+  padding-right: 0;
+}
+
+.contenedor-boton-siguiente:hover {
+  background-color: #055EB6;
+}
+
+.contenedor-boton-siguiente:active {
+  background-color: #003B75;
 }
 
 .imagen-boton-siguiente {
   padding-right: 0.7rem;
-  max-height: 34px;
-  max-width: 34px;
+  max-height: 22px;
+  max-width: 22px;
 }
 
 .link-boton-siguiente {
   color: white;
-  font-size: 20.53px;
+  font-size: 14px;
   font-family: 'Karla', sans-serif;
   font-weight: 400;
-  text-decoration: underline;
+  text-decoration: none;
   width: 300px;
 }
 
@@ -1036,23 +1193,33 @@ body {
 
 .contenedor-descargar-cartilla {
   max-width: 34%;
+  height: 36px;
   background-color: #00468b;
   display: flex;
   align-items: center;
   color: white;
   border-radius: 8px 8px 8px 0px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 0px;
+  padding-bottom: 0px;
   margin: 20px auto 25px auto;
 }
 
+.contenedor-descargar-cartilla:hover {
+  background-color: #055EB6;
+}
+
+.contenedor-descargar-cartilla:active {
+  background-color: #003B75;
+}
 .imagen-descargar-cartilla {
+  height: 22px;
+  width: 22px;
   padding-left: 0.7rem;
 }
 
 .link-descargar-cartilla {
   font-family: 'Karla', sans-serif;
-  font-size: 17px;
+  font-size: 14px;
   color: white;
   text-decoration: underline;
   width: 300px;
@@ -1063,30 +1230,42 @@ body {
 
 .contenedor-descargar-archivos {
   max-width: 36%;
+  height: 36px;
   background-color: #00468b;
   display: flex;
   align-items: center;
   color: white;
   border-radius: 8px 8px 8px 0px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 0px;
+  padding-bottom: 0px;
   margin: 20px auto 25px auto;
+}
+
+.contenedor-descargar-archivos:hover {
+  background-color: #055EB6;
+}
+
+.contenedor-descargar-archivos:active {
+  background-color: #003B75;
 }
 
 .imagen-descargar-archivos {
   padding-left: 0.7rem;
+  width: 22px;
+  height: 22px;
 }
 
 .link-descargar-archivos {
   color: white;
   font-family: 'Karla', sans-serif;
-  font-size: 17px;
+  font-size: 14px;
   text-decoration: underline;
   width: 300px;
   padding-left: 1rem;
 }
 
 .contenedor-glosario-1 {
+  max-height: 36px;
   max-width: 22%;
   background-color: white;
   display: flex;
@@ -1094,19 +1273,20 @@ body {
   color: white;
   border: 2px solid #00468b;
   border-radius: 8px 8px 8px 0px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 0px;
+  padding-bottom: 0px;
   margin: 20px auto 25px auto;
 }
 
 .imagen-glosario-1 {
   padding-left: 0.7rem;
-}
+  width: 22px;
+  height: 22px;}
 
 .link-glosario-1 {
   color: #00468b;
   font-family: 'Karla', sans-serif;
-  font-size: 17px;
+  font-size: 14px;
   text-decoration: underline;
   width: 300px;
   padding-left: 1rem;
@@ -1166,14 +1346,16 @@ body {
 }
 
 .contenedor-presentar-evaluacion-fin-modulo {
+  min-height: 36px;
+  max-height: 36px;
   max-width: 72.5%;
   background-color: #00468b;
   display: flex;
   align-items: center;
   color: white;
   border-radius: 8px 8px 8px 0px;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 0px;
+  padding-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 3rem;
@@ -1181,11 +1363,15 @@ body {
 
 .imagen-evaluacion-fin-modulo {
   padding-left: 0.7rem;
+  min-height: 22px;
+  max-height: 22px;
+  min-width: 22px;
+  max-width: 22px;
 }
 
 .link-evaluacion-fin-modulo {
   color: white;
-  font-size: 18px;
+  font-size: 14px;
   text-decoration: underline;
   width: 300px;
   padding-left: 1rem;
@@ -1284,9 +1470,49 @@ body {
 }
 
 
+/* #wiki_page_show > div > div:nth-child(7) > a {
+  font-size: 14px !important;
+}
+
+#wiki_page_show > div > div:nth-child(7) > img {
+  min-height: 22px;
+  max-height: 22px;
+  min-width: 22px;
+  max-width: 22px;
+}
+#wiki_page_show > div > div:nth-child(7) {
+  margin-top: -10rem !important;
+  min-height: 36px !important;
+  max-height: 36px !important;
+  min-width: 22% !important;
+  max-width: 22% !important;
+  padding-top: 0 !important;hive
+  padding-bottom: 0 !important;
+  
+} */
+
+.glosario-practica-fin-modulo-link {
+  font-size: 14px !important;
+}
+
+.glosario-practica-fin-modulo-imagen {
+  min-height: 22px;
+  max-height: 22px;
+  min-width: 22px;
+  max-width: 22px;
+}
+.glosario-practica-fin-modulo {
+  margin-top: -10rem !important;
+  min-height: 36px !important;
+  max-height: 36px !important;
+  min-width: 22% !important;
+  max-width: 22% !important;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
 @media (max-width: 1081px) {
 
-  /*AlfabetizaciÃƒÆ’Ã‚Â³n digital*/
+  /*AlfabetizaciÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â³n digital*/
 
   html,
   body {
@@ -1355,7 +1581,7 @@ body {
   .contenedor-titulo {
     width: 89.84%;
     border-bottom: 1.36852px solid #00468B;
-    margin: 0 auto 0 18px;
+    margin: 0 auto 0 auto;
     padding-bottom: 31px;
     margin-bottom: 39px;
     display: flex;
@@ -1375,7 +1601,7 @@ body {
 
   .first {
     display: inline-block;
-    width: 100%;
+    max-width: 100%;
   }
 
   .contenedor-web {
@@ -1386,7 +1612,7 @@ body {
   }
 
   .contenedor-web2 {
-
+    margin-left: 0;
     width: 100%;
   }
 
@@ -1421,42 +1647,43 @@ body {
     margin-right: auto;
     border-top: 1px solid #00468B;
     border-bottom: 1px solid #00468B;
-    width: 100%;
-    padding-top: 39px;
-    padding-bottom: 56px;
+    width: 89.84%;
+    padding-top: 32px;
+    padding-bottom: 32px;
     margin-top: 34.19px;
 
   }
 
   .contenedor-modulo1 {
-    height: 101px;
-    min-width: 91.1%;
-    max-width: 91.1%;
+    height: 68px;
+    width: 88%;
     background-color: #079bab;
     margin-left: auto !important;
     margin-right: auto !important;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     color: white;
     font-size: 2rem;
     border-radius: 8.2607px 8.2607px 4.13035px 0px;
-    margin-bottom: 52px;
+    margin-bottom: 33.31px;
   }
 
   .modulo-1 {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 43.56%;
+    width: 55.56%;
   }
 
+ 
   .link-modulo1 {
-    text-decoration: none !important;
+    text-decoration: none;
     color: white;
-    font-size: 33px;
-    width: 100%;
+    font-size: 22px;
+    width: auto;
     font-weight: 700;
+    margin-right: 38px;
   }
 
   .link-imagen-modulo1 {
@@ -1464,21 +1691,23 @@ body {
   }
 
   .imagen-modulo1 {
-    min-width: 60px;
-    max-width: 60px;
-    min-height: 60px;
-    max-height: 60px;
+    max-width: 42.34px;
+    max-height: 42.34px !important;
+    min-height: 42.34px;
+    min-width: 42.34px;
+    margin-top: auto;
+    margin-bottom: auto;
   }
 
   .contenedor-modulo2 {
-    height: 101px;
-    min-width: 91.1%;
-    max-width: 91.1%;
+    height: 68px;
+    width: 88%;
+    max-width: 100%;
     background-color: #079bab;
     margin-left: auto !important;
     margin-right: auto !important;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     color: white;
     font-size: 2rem;
@@ -1491,14 +1720,14 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 43.56%;
+    width: 55.56%;
   }
 
   .link-modulo2 {
-    text-decoration: none !important;
+    text-decoration: none;
     color: white;
-    font-size: 33px;
-    width: 100%;
+    font-size: 22px;
+    width: auto;
     font-weight: 700;
   }
 
@@ -1507,10 +1736,12 @@ body {
   }
 
   .imagen-modulo2 {
-    min-width: 60px;
-    max-width: 60px;
-    min-height: 60px;
-    max-height: 60px;
+    max-width: 42.34px;
+    max-height: 42.34px !important;
+    min-height: 42.34px;
+    min-width: 42.34px;
+    margin-top: auto;
+    margin-bottom: auto;
   }
 
   .contenedor-sinconexion-encuesta {
@@ -1521,16 +1752,16 @@ body {
     border-bottom: 1.00838px solid #0051A2;
     padding-top: 32.32px;
     padding-bottom: 32.32px;
-    margin-top: 52px;
+    margin-top: 37.84px;
     width: 89.84%;
-    margin-left: 23px;
+    margin-left: auto;
     margin-right: auto;
 
   }
 
   .contenedor-sin-conexion {
     margin-right: auto;
-    margin-bottom: 39px;
+    margin-bottom: 32px;
     max-height: 40.84px;
     width: 88.46%;
     background-color: white;
@@ -1538,6 +1769,7 @@ body {
     align-items: center;
     justify-content: start;
     padding-left: 0;
+    margin-left: 0;
   }
 
   .imagen-sinconexion {
@@ -1560,7 +1792,7 @@ body {
 
   .contenedor-encuesta {
     margin-right: auto;
-    margin-bottom: 53px;
+    margin-bottom: 32px;
     max-height: 40.84px;
     width: 88.46%;
     background-color: white;
@@ -1586,23 +1818,23 @@ body {
   }
 
   .contenedor-titulo-evaluacion {
-    margin-left: 0;
+    margin-left: 16px;
     max-height: 19.89px;
     max-width: 440px;
     background-color: white;
     display: flex;
     justify-content: start;
     align-items: center;
-    padding-left: 30px;
-    margin-top: 22px;
-    margin-bottom: 39px;
+    padding-left: 1rem;
+    margin-top: 32px;
+    margin-bottom: 30px;
   }
 
   .titulo-evluacion {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     text-align: left;
-    font-size: 21.9px;
+    font-size: 16px;
     color: #0051a1;
 
   }
@@ -1610,26 +1842,26 @@ body {
   .evaluacion-final {
     font-family: 'Karla', sans-serif;
     font-weight: 700;
-    width: 89%;
-    min-height: 61px !important;
-    max-height: 61px !important;
+    width: 90.11%;
+    max-height: 46px;
     background-color: #00468b;
     display: flex;
     align-items: center;
     color: white;
     border-radius: 8px 8px 8px 0px;
-    padding-top: 0;
-    padding-bottom: 0;
-    margin-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 16px;
     margin-right: auto;
     border: 1px solid #00468B;
   }
 
+
+
+
   .evaluacion-final-imagen {
-    min-height: 44px;
-    max-height: 44px;
-    min-width: 44px;
-    max-width: 44px;
+    height: 32px;
+    width: 32px;
     padding-left: 2.74%;
   }
 
@@ -1637,7 +1869,7 @@ body {
     font-family: 'Karla', sans-serif;
     font-weight: 100;
     color: white;
-    font-size: 19px;
+    font-size: 16px;
     text-decoration: underline;
     width: 73.3%;
     padding-left: 0.7rem;
@@ -1650,7 +1882,7 @@ body {
 
 
   .contenedor-preguntas {
-    margin-left: 23px;
+    margin-left: auto;
     margin-right: auto;
     max-height: 29px;
     max-width: 440px;
@@ -1659,14 +1891,14 @@ body {
     justify-content: start;
     align-items: center;
     padding-left: 0;
-    margin-top: 20px;
+    margin-top: 32.48px;
     margin-bottom: 0;
   }
 
   .preguntas {
     text-align: left;
     font-family: 'Karla', sans-serif;
-    font-size: 21.9px;
+    font-size: 16px;
     font-weight: 300;
     color: #00468B;
     margin: 0;
@@ -1675,32 +1907,29 @@ body {
   .contenedor-opciones-usuario {
     display: flex;
     flex-direction: column;
+    margin-left: 16px;
   }
 
   .contenedor-tutoriales {
-    width: 95.11%;
-    min-height: 61.58px;
-    max-height: 61.58px;
-    max-width: 437px;
+    width: 96.11%;
+    height: 46px;
     background-color: white;
     display: flex;
     align-items: center;
     color: #00468b;
     border-radius: 8px 8px 8px 0px;
-    margin-left: 24.68px;
+    margin-left: auto;
     margin-right: auto;
-    margin-top: 21px;
+    margin-top: 15.56px;
     border: 1px solid #00468B;
   }
 
 
 
   .imagen-tutoriales {
-    padding-left: 9.58px;
-    min-height: 41.74px;
-    max-height: 41.74px;
-    min-width: 41.74px;
-    max-width: 41.74px;
+    padding-left: 0.7rem;
+    height: 30px;
+    width: 30px;
   }
 
   .texto-tutoriales {
@@ -1716,15 +1945,14 @@ body {
   }
 
   .contenedor-preguntas-frecuentes {
-    min-height: 61.58px;
-    max-height: 61.58px;
-    width: 95.11%;
+    width: 96.11%;
+    height: 46px;
     background-color: white;
     display: flex;
     align-items: center;
     color: #00468b;
     border-radius: 8px 8px 8px 0px;
-    margin-left: 24.68px;
+    margin-left: auto;
     margin-right: auto;
     margin-top: 14px;
     border: 1px solid #00468B;
@@ -1733,11 +1961,9 @@ body {
 
 
   .imagen-preguntas {
-    padding-left: 9.58px;
-    min-height: 41.74px;
-    max-height: 41.74px;
-    min-width: 41.74px;
-    max-width: 41.74px;
+    padding-left: 0.7rem;
+    height: 30px;
+    width: 30px;
 
   }
 
@@ -1754,26 +1980,23 @@ body {
   }
 
   .contenedor-habla {
-    min-height: 61.58px;
-    max-height: 61.58px;
-    width: 95.11%;
+    width: 96.11%;
+    height: 46px;
     background-color: #00468b;
     display: flex;
     align-items: center;
     color: white;
     border-radius: 8px 8px 8px 0px;
-    margin-left: 24.68px;
+    margin-left: auto;
     margin-right: auto;
     margin-top: 14px;
     border: 1px solid #00468B;
   }
 
   .imagen-habla {
-    padding-left: 9.58px;
-    min-height: 41.74px;
-    max-height: 41.74px;
-    min-width: 41.74px;
-    max-width: 41.74px;
+    padding-left: 0.7rem;
+    height: 30px;
+    width: 30px;
   }
 
   .texto-habla {
@@ -1802,7 +2025,6 @@ body {
     margin-left: auto;
     margin-right: auto;
     background: transparent;
-    min-height: 146px;
     max-height: 147px;
   }
 
@@ -1810,8 +2032,11 @@ body {
 
   .banner-modulo1 {
     display: flex;
+    max-height: 125px;
+    height: 105px;
+    min-width: 100%;
     max-width: 100%;
-    max-height: 95px;
+    
   }
 
   .banner-modulo1-web {
@@ -1894,7 +2119,7 @@ body {
     align-items: center;
     color: white;
     border-radius: 8px 8px 8px 0px;
-    padding-top: 6.79px;
+    padding-top: 10px;
     padding-bottom: 10px;
     margin: 0 auto 0 auto;
   }
@@ -2070,6 +2295,12 @@ body {
     padding-bottom: 0;
   }
 
+  .contenedor-actividad-practica-modulo-1:hover {
+    background-color: #003B75;
+  }
+.contenedor-actividad-practica-modulo-1:active{
+  background-color: #079bab;
+}
   .link-imagen-practica-lista-modulo-1 {
     padding-left: 12px;
     padding-top: 6.79px;
@@ -2087,7 +2318,7 @@ body {
     padding-left: 10px;
   }
 
-  /* LecciÃƒÆ’Ã‚Â³n 1 */
+  /* LecciÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â³n 1 */
 
   .contenedor-botones {
     min-height: 159px;
@@ -2104,9 +2335,10 @@ body {
   }
 
   .contenedor-boton-inicio {
-    max-width: 32%;
-    min-height: 47.49999px;
-    max-height: 47.5px;
+    min-height: 36px;
+    max-height: 36px;
+    min-width: 95px;
+    max-width: 95px;
     background-color: #00468b;
     display: flex;
     align-items: center;
@@ -2132,9 +2364,10 @@ body {
   }
 
   .contenedor-boton-modulos {
-    max-width: 41%;
-    min-height: 47.49999px;
-    max-height: 47.5px;
+    min-height: 36px;
+    max-height: 36px;
+    min-width: 123px;
+    max-width: 123px;
     background-color: #00468b;
     display: flex;
     align-items: center;
@@ -2143,6 +2376,15 @@ body {
     border-radius: 8px 8px 8px 0px;
     margin: 0;
   }
+
+  .contenedor-boton-modulos:hover {
+    background-color: #003B75;
+  }
+  
+  .contenedor-boton-modulos:active {
+    background-color: #079bab;
+  }
+
 
   .link-boton-modulos {
     color: white;
@@ -2199,8 +2441,10 @@ body {
   }
 
   .contenedor-boton-anterior {
-    max-width: 32%;
-    height: 36px;
+    min-width: 111px;
+    max-width: 111px;
+    max-height: 36px;
+    min-height: 36px;
     padding-bottom: 0;
     padding-top: 0;
     background-color: #00468b;
@@ -2210,6 +2454,14 @@ body {
     color: white;
     border-radius: 8px 8px 8px 0px;
     margin: 0;
+  }
+
+  .contenedor-boton-anterior:hover {
+    background-color: #003B75;
+  }
+  
+  .contenedor-boton-anterior:active {
+    background-color: #079bab;
   }
 
   .imagen-boton-anterior {
@@ -2227,11 +2479,15 @@ body {
     font-weight: 400;
     text-decoration: underline;
     width: 300px;
+    margin-top: 0;
+    margin-bottom: 0;
   }
 
   .contenedor-boton-siguiente {
-    max-width: 34%;
-    height: 36px;
+    min-width: 121px;
+    max-width: 121px;
+    max-height: 36px;
+    min-height: 36px;
     background-color: #00468b;
     display: flex;
     align-items: center;
@@ -2243,7 +2499,13 @@ body {
     margin: 0;
     padding-right: 0;
   }
-
+  .contenedor-boton-anterior:hover {
+    background-color: #003B75;
+  }
+  
+  .contenedor-boton-anterior:active {
+    background-color: #079bab;
+  }
   .imagen-boton-siguiente {
     padding-right: 0.7rem;
     min-height: 23.99px;
@@ -2259,6 +2521,8 @@ body {
     font-weight: 400;
     text-decoration: underline;
     width: 300px;
+    margin-top: 0;
+    margin-bottom: 0;
   }
 
 
@@ -2293,6 +2557,14 @@ body {
     margin: 0 auto 0 auto;
   }
 
+  .contenedor-descargar-cartilla:hover {
+    background-color: #003B75;
+  }
+  
+  .contenedor-descargar-cartilla:active {
+    background-color: #079bab;
+  }
+
   .imagen-descargar-cartilla {
     padding-left: 0.7rem;
     width: 36px;
@@ -2322,6 +2594,13 @@ body {
     padding-top: 0;
     padding-bottom: 0;
     margin: 14px auto 14px auto;
+  }
+  .contenedor-descargar-archivos:hover {
+    background-color: #003B75;
+  }
+  
+  .contenedor-descargar-archivos:active {
+    background-color: #079bab;
   }
 
   .imagen-descargar-archivos {
@@ -2449,6 +2728,15 @@ body {
 
 .subtitulo-trabajo-insignia-2 {
     display: none;
+}
+
+.glosario-practica-fin-modulo {
+  min-height: 36px !important;
+  max-height: 36px !important;
+  min-width: 37% !important;
+  max-width: 37% !important;
+  margin-top: -7rem !important;
+ 
 }
 
 }
